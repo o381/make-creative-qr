@@ -1,0 +1,8 @@
+{
+  "name": "make-creative-qr-tools",
+  "private": true,
+  "description": "Task-local SVG information guide rasterization tools",
+  "dependencies": {
+    "sharp": "0.34.5"
+  }
+}

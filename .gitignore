@@ -1,0 +1,29 @@
+# 私人制作任务目录
+/private/
+/work/
+/input/
+/output/
+/reports/
+/qr-work*/
+/upload/
+/generated_images/
+
+# 编码资料及可能关联私人内容的报告
+**/payload.bin
+**/*matrix*.json
+**/*qualification*.json
+**/*source-report*.json
+**/*probe-report*.json
+
+# 本阶段暂不提交案例图；验收后只放行具体公开文件
+/examples/images/
+
+# 本地环境与凭据
+.env
+.env.*
+!.env.example
+.venv/
+python-deps/
+node_modules/
+__pycache__/
+*.pyc
