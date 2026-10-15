@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "repository_url": "https://github.com/o381/make-creative-qr",
+  "publication_date": "2026-10-16",
+  "decoded_payload": "https://github.com/o381/make-creative-qr",
+  "payload_sha256": "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34",
+  "software_test_scope": "Actual complete published PNG and complete480/640/800px PNG and JPEG quality85 variants; no cropping, known corners or pure-code mode.",
+  "required_widths": [
+    480,
+    640,
+    800
+  ],
+  "required_jpeg_qualities": [
+    85
+  ],
+  "note": "Phone status is based on separately recorded user evidence; software verification alone does not confirm a phone scan.",
+  "artwork_license": "Not separately specified; the repository MIT license covers code and documentation.",
+  "examples": [
+    {
+      "id": "pencil-whale",
+      "title": "铅笔的影子游成了鲸",
+      "description": "铅笔投下会游动的鲸影，石墨刻线与纸面留白承载信息。",
+      "image": "images/pencil-whale.png",
+      "image_sha256": "f8c16f13beba3ce30f8ee9f5c4029eac4d1e314bf1b1ecc168075410dc03c48e",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "zipper-city",
+      "title": "拉链里藏着一座城",
+      "description": "拉开衣服，内衬里藏着亮灯的小城；屋顶与巷道成为信息细节。",
+      "image": "images/zipper-city.png",
+      "image_sha256": "2e09b7509cd1a94b821cafe3019cd45dc4c411c8ede7f3e6415258506de1ae4c",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "stamp-sea",
+      "title": "蜗牛偷走邮票里的海",
+      "description": "蜗牛牵起邮票，印刷的海流到桌面，成为一片微型海域。",
+      "image": "images/stamp-sea.png",
+      "image_sha256": "94ade63c6f9320db1efe54647c29972af6628f409c52ddf246e27e18464c8d46",
+      "size": [
+        800,
+        800
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "wool-lambs",
+      "title": "毛线球散成了小羊",
+      "description": "猫咪牵动毛线，连续的羊毛毡纹理散成了几只小羊。",
+      "image": "images/wool-lambs.png",
+      "image_sha256": "7c13f2aee9906756d7348b3a2667c94ba97bbaad66e401f6e3e0f1d62f9c4c25",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "flying-score",
+      "title": "乐谱飞走之后",
+      "description": "纸上的乐谱化成飞鸟，印刷痕迹与纸面留白共同构成画面。",
+      "image": "images/flying-score.png",
+      "image_sha256": "2ce5d995bffe8d215bae6722b26b93afc6f91fa09a469084d593696f94ec1361",
+      "size": [
+        800,
+        800
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "shaved-night",
+      "title": "削下的夜色",
+      "description": "削笔留下的卷屑与夜色相连，材料的形变承载信息。",
+      "image": "images/shaved-night.png",
+      "image_sha256": "e94a1c7df7ec3cf871d3be16400832ce3617c33a9c7503e3910dfa60a1a76476",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "stretched-film",
+      "title": "黄膜拉伸",
+      "description": "手指拉开一层薄膜，受力后的细孔和材料间隙共同承载信息。",
+      "image": "images/stretched-film.png",
+      "image_sha256": "d682a5bd18473ce3814f7767d7ccdf5c225944b3dab7028dc3ec8187155a2c87",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "cream-egg",
+      "title": "破壳奶油彩蛋",
+      "description": "彩蛋碎壳中流出奶油，碎屑、裂口和外缘共同参与同一事件。",
+      "image": "images/cream-egg.png",
+      "image_sha256": "59e2f99686c666c4aab65e3596f988c6b5ed523b4b14692d41b267cefe2966a8",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "user-confirmed-project-page",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

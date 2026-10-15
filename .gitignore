@@ -15,8 +15,16 @@
 **/*source-report*.json
 **/*probe-report*.json
 
-# 本阶段暂不提交案例图；验收后只放行具体公开文件
-/examples/images/
+# 仅放行已核对的公开项目案例图
+/examples/images/*
+!/examples/images/pencil-whale.png
+!/examples/images/zipper-city.png
+!/examples/images/stamp-sea.png
+!/examples/images/wool-lambs.png
+!/examples/images/flying-score.png
+!/examples/images/shaved-night.png
+!/examples/images/stretched-film.png
+!/examples/images/cream-egg.png
 
 # 本地环境与凭据
 .env
