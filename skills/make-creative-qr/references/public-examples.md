@@ -1,35 +1,25 @@
-# 公开案例规则
+**English** | [简体中文](public-examples.zh-CN.md)
 
-## 确定目标
+# Public example rules
 
-仅在用户明确制作项目公开演示时使用本流程。
-正常用户转换保持原始内容，不改为项目主页。
+## Fix the target
 
-取得真实仓库主页地址，确认仓库及 Skill 源码可访问。
-将该地址作为公开案例唯一编码内容，精确保留其字节。
-地址未定时停在文字与构成草稿，不生成占位案例。
-不使用私人联系信息、实验原码、短链、追踪参数或无关跳转。
+Use this process only when the user explicitly requests a public project demonstration. Ordinary conversions retain the original content rather than switching to the project homepage.
 
-## 重新制作
+Obtain the real repository homepage URL and confirm that the repository and Skill source are accessible. Use that address as the sole encoded content of public examples, preserving its bytes exactly. Until the address is fixed, stop at text and composition drafts rather than generating placeholder examples. Exclude private contact details, experimental source codes, short links, tracking parameters and unrelated redirects.
 
-从公开地址生成新的矩阵和信息导引。
-可以重新采用认可的创意机制，不复制含私人编码的旧图。
-重新设计材料分布与定位区融合，不只替换文字或元数据。
-更改公开地址后，废弃旧矩阵、成图和验收报告，重新制作。
+## Create fresh artwork
 
-## 验收
+Generate a new matrix and guide from the public URL. Reuse approved creative mechanisms if useful, but do not copy historical images carrying private encoding. Redesign material distribution and locator integration rather than replacing text or metadata. If the public address changes, discard the previous matrix, artwork and qualification report and recreate them.
 
-沿用主工作流的全部软件与外观门槛。
-逐张测试实际完整文件，以及 480、640、800 像素的
-PNG 和 JPEG 85 变体；任何一项失败均不得作为完成案例。
-用当前宿主的可靠读码与导出能力，对 README 最终显示版本及其他实际上传版本分别验证；不要求固定库或命令。
-逐张完成手机实扫，确认解码为精确项目 URL，并打开正确主页。
-记录实测应用、系统、日期及文件摘要或不可变资产版本，不记录个人账户或设备标识。
-软件通过而手机未测时，只能保留为内部候选。
+## Acceptance
 
-## 最后上传
+Retain all software and visual gates from the main workflow. For each artwork, test the actual complete file and PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels. Any failure prevents qualification as a completed example.
 
-源码、文档、地址和许可定稿，用户认可案例外观，且软件与
-手机验收通过后，再把通过的公开案例加入仓库及 README。
-不上传私人旧图、失败候选、私有报告或来源不清的参考图片。
-确认案例文件与记录一致，声明案例资产许可。
+Use reliable host decoding and export capabilities to verify the final version displayed in the README and every other actual uploaded version separately; no fixed library or command is required.
+
+Complete a phone scan for every artwork, confirming the exact project URL and that the correct homepage opens. Record the app, operating system, date and file digest or immutable asset version, without personal accounts or device identifiers. Software-passing images without phone evidence remain internal candidates under the normal publication workflow.
+
+## Upload last
+
+Finalize source, documentation, address and licensing, obtain the user's visual approval, and pass software and phone acceptance before adding qualified examples to the repository and README. Do not upload old private images, failed candidates, private reports or reference images of unclear origin. Confirm that files match their records and declare artwork licensing.

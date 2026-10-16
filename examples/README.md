@@ -1,86 +1,88 @@
-# 创意二维码案例
+**English** | [简体中文](README.zh-CN.md)
 
-每张图都扫描到 [make-creative-qr 的 GitHub 主页](https://github.com/o381/make-creative-qr)。点击图片查看完整原文件。
+# Creative QR gallery
 
-这组作品于 2026-10-16 按项目所有者要求统一公开。所有实际上传文件及宽 480、640、800 像素的 PNG、JPEG 85 版本均通过软件验码；手机实扫状态单独列于下表。
+Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-| 作品 | 手机实扫状态 |
+These eight works were published on 2026-10-16 at the project owner's request. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+
+| Artwork | Phone scan status |
 | --- | --- |
-| [铅笔的影子游成了鲸](#pencil-whale) | 待复核 |
-| [拉链里藏着一座城](#zipper-city) | 待复核 |
-| [蜗牛偷走邮票里的海](#stamp-sea) | 待复核 |
-| [毛线球散成了小羊](#wool-lambs) | 待复核 |
-| [乐谱飞走之后](#flying-score) | 待复核 |
-| [削下的夜色](#shaved-night) | 待复核 |
-| [黄膜拉伸](#stretched-film) | 待复核 |
-| [破壳奶油彩蛋](#cream-egg) | 用户已确认打开项目页面 |
+| [A pencil's shadow becomes a whale](#pencil-whale) | Pending phone review |
+| [A city inside a zipper](#zipper-city) | Pending phone review |
+| [A snail steals the sea from a stamp](#stamp-sea) | Pending phone review |
+| [A ball of yarn becomes lambs](#wool-lambs) | Pending phone review |
+| [After the score takes flight](#flying-score) | Pending phone review |
+| [Shavings of night](#shaved-night) | Pending phone review |
+| [Stretched yellow film](#stretched-film) | Pending phone review |
+| [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
 
 <a id="pencil-whale"></a>
 
-## 铅笔的影子游成了鲸
+## A pencil's shadow becomes a whale
 
-铅笔投下会游动的鲸影，石墨刻线与纸面留白承载信息。
+A pencil casts a swimming whale's shadow; graphite lines and unmarked paper carry the information.
 
-<a href="images/pencil-whale.png"><img src="images/pencil-whale.png" width="640" alt="铅笔的影子游成了鲸"></a>
+<a href="images/pencil-whale.png"><img src="images/pencil-whale.png" width="640" alt="A pencil's shadow becomes a whale"></a>
 
 <a id="zipper-city"></a>
 
-## 拉链里藏着一座城
+## A city inside a zipper
 
-拉开衣服，内衬里藏着亮灯的小城；屋顶与巷道成为信息细节。
+An open zipper reveals a glowing city in the lining. Rooftops and alleys become information-bearing details.
 
-<a href="images/zipper-city.png"><img src="images/zipper-city.png" width="640" alt="拉链里藏着一座城"></a>
+<a href="images/zipper-city.png"><img src="images/zipper-city.png" width="640" alt="A city inside a zipper"></a>
 
 <a id="stamp-sea"></a>
 
-## 蜗牛偷走邮票里的海
+## A snail steals the sea from a stamp
 
-蜗牛牵起邮票，印刷的海流到桌面，成为一片微型海域。
+A snail lifts a postage stamp, letting its printed sea flow onto the desk as a miniature ocean.
 
-<a href="images/stamp-sea.png"><img src="images/stamp-sea.png" width="640" alt="蜗牛偷走邮票里的海"></a>
+<a href="images/stamp-sea.png"><img src="images/stamp-sea.png" width="640" alt="A snail steals the sea from a stamp"></a>
 
 <a id="wool-lambs"></a>
 
-## 毛线球散成了小羊
+## A ball of yarn becomes lambs
 
-猫咪牵动毛线，连续的羊毛毡纹理散成了几只小羊。
+A cat pulls at yarn, and continuous felted-wool textures disperse into little lambs.
 
-<a href="images/wool-lambs.png"><img src="images/wool-lambs.png" width="640" alt="毛线球散成了小羊"></a>
+<a href="images/wool-lambs.png"><img src="images/wool-lambs.png" width="640" alt="A ball of yarn becomes lambs"></a>
 
 <a id="flying-score"></a>
 
-## 乐谱飞走之后
+## After the score takes flight
 
-纸上的乐谱化成飞鸟，印刷痕迹与纸面留白共同构成画面。
+A printed score turns into birds; ink marks and unmarked paper shape the composition together.
 
-<a href="images/flying-score.png"><img src="images/flying-score.png" width="640" alt="乐谱飞走之后"></a>
+<a href="images/flying-score.png"><img src="images/flying-score.png" width="640" alt="After the score takes flight"></a>
 
 <a id="shaved-night"></a>
 
-## 削下的夜色
+## Shavings of night
 
-削笔留下的卷屑与夜色相连，材料的形变承载信息。
+Curled pencil shavings meet the night, with the material's deformation carrying information.
 
-<a href="images/shaved-night.png"><img src="images/shaved-night.png" width="640" alt="削下的夜色"></a>
+<a href="images/shaved-night.png"><img src="images/shaved-night.png" width="640" alt="Shavings of night"></a>
 
 <a id="stretched-film"></a>
 
-## 黄膜拉伸
+## Stretched yellow film
 
-手指拉开一层薄膜，受力后的细孔和材料间隙共同承载信息。
+Fingers stretch a thin film; the resulting pores and gaps carry information together.
 
-<a href="images/stretched-film.png"><img src="images/stretched-film.png" width="640" alt="黄膜拉伸"></a>
+<a href="images/stretched-film.png"><img src="images/stretched-film.png" width="640" alt="Stretched yellow film"></a>
 
 <a id="cream-egg"></a>
 
-## 破壳奶油彩蛋
+## A cream-filled egg cracks open
 
-彩蛋碎壳中流出奶油，碎屑、裂口和外缘共同参与同一事件。
+Cream flows from a broken egg, with fragments, cracks and outer edges all participating in the same event.
 
-<a href="images/cream-egg.png"><img src="images/cream-egg.png" width="640" alt="破壳奶油彩蛋"></a>
+<a href="images/cream-egg.png"><img src="images/cream-egg.png" width="640" alt="A cream-filled egg cracks open"></a>
 
-## 文件与验证
+## Files and verification
 
-[逐图文件摘要与软件验证记录](verification.json)。软件识别通过不代表每个手机应用和拍摄条件均能成功；尚未完成的手机复核保持为待复核。
+[Per-image file hashes and software verification records](verification.json). Passing software decoding does not guarantee success in every phone app or camera condition. Incomplete phone reviews remain pending.
 
-示例图由生成式工具辅助创作，并按各自需要做光学、材质或纹理处理。代码与文档采用仓库 MIT 许可；图片许可尚未另行指定。
+The examples were made with generative tools, with optical, material or texture adjustments as needed. The repository's MIT License covers code and documentation; artwork licensing has not been separately specified.

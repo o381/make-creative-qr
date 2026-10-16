@@ -1,19 +1,19 @@
 ---
-name: 公开案例扫码失败
-about: 使用项目公开地址的材料报告扫码问题
+name: Public example scan failure (English)
+about: Report scanning problems using examples that encode the public project URL
 title: "[Scan] "
 ---
 
-请勿上传私人二维码或含私人编码的派生图片。
+Do not upload private QR codes or images derived from private encoding.
 
-- 项目版本或提交：
-- 公开案例名称：
-- 编码目标是否为项目 GitHub 主页：
-- 实际图像尺寸、格式、是否经过压缩：
-- 扫描应用及版本、系统：
-- 扫描方式（屏幕/印刷，约定尺寸与距离）：
-- 软件验证结果：
-- 手机实测结果：
-- 预期行为与实际行为：
+- Project version or commit:
+- Public example name:
+- Does the encoded target match the project GitHub homepage?
+- Actual image size, format and compression:
+- Scanning app/version and operating system:
+- Method (screen/print, intended size and distance):
+- Software verification results:
+- Actual phone scan results:
+- Expected and actual behavior:
 
-附可公开的最小复现材料；不要附个人账户、设备标识或原始私有报告。
+Attach a minimal public reproduction. Exclude personal accounts, device identifiers and original private reports.

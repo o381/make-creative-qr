@@ -1,4 +1,4 @@
 interface:
-  display_name: "创意二维码"
-  short_description: "按宿主可用工具将真实二维码融入场景，先确认风格并验证完整成图的原始内容"
-  default_prompt: "使用 $make-creative-qr，先确认我的风格与用途，选择当前可用工具制作自然融合的创意二维码，并验证完整成图与原始内容一致。"
+  display_name: "Make Creative QR"
+  short_description: "Create naturally integrated QR art and verify exact content"
+  default_prompt: "Use $make-creative-qr to confirm my style and intended use, create naturally integrated QR artwork with available tools, and verify that the complete image preserves the original content."

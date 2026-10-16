@@ -1,8 +1,7 @@
-# 社区约定
+**English** | [简体中文](CODE_OF_CONDUCT.zh-CN.md)
 
-围绕作品、代码和可复现证据讨论，尊重不同审美与经验。
-欢迎具体批评和改进建议，不接受针对个人的骚扰、歧视或威胁。
-不公开他人的私人二维码、个人信息或未经许可的素材。
+# Community guidelines
 
-维护者可以移除违反约定的内容，并限制反复违规的参与行为。
-需要私下联系维护者时，使用 SECURITY.md 公布的渠道。
+Discuss artworks, code and reproducible evidence with respect for different tastes and experience. Specific criticism and suggestions are welcome; personal harassment, discrimination and threats are not. Do not disclose others' private QR codes, personal information or assets without permission.
+
+Maintainers may remove content that violates these guidelines and restrict repeated violations. For private contact, use the channel in [SECURITY.md](SECURITY.md).

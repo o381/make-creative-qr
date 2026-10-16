@@ -1,10 +1,9 @@
-# 隐私与安全问题
+**English** | [简体中文](SECURITY.zh-CN.md)
 
-私人二维码可能包含联系方式、访问令牌或其他个人信息。
-不要在公开 Issue、PR、截图或日志中提交这些内容。
+# Privacy and security
 
-报告潜在数据泄漏、编码替换或安全缺陷时，使用
-[GitHub 私密漏洞报告](https://github.com/o381/make-creative-qr/security/advisories/new)。附版本、问题描述和公共内容的最小复现。
-只有涉及公开演示地址的普通扫码失败，才使用公开 Issue 模板。
+Private QR codes may contain contact details, access tokens or other personal information. Do not include these in public issues, pull requests, screenshots or logs.
 
-支持范围：默认分支的当前源码；尚无正式发布版本。
+Report potential data leaks, payload substitution or security defects through [GitHub private vulnerability reporting](https://github.com/o381/make-creative-qr/security/advisories/new). Include the version, a description and a minimal reproduction using public content. Use public issue templates only for ordinary scanning failures involving the public demonstration URL.
+
+Supported scope: current source on the default branch. There is no formal release yet.

@@ -1,47 +1,49 @@
-# 宿主工具适配
+**English** | [简体中文](tool-adaptation.zh-CN.md)
 
-按结果选择工具，不将附带脚本、产品名或模型名当作必要能力。即梦 Agent、画布 Agent、Gemini 等可作为用户希望接入的宿主；是否可执行全流程，须根据实际工具和权限判断，不声称已经逐个平台实测。
+# Host tool adaptation
 
-## 建立本次映射
+Choose tools by results. Bundled scripts, product names and model names are not required capabilities. Jimeng agents, canvas agents, Gemini and other hosts may be integration targets, but actual tools and permissions determine whether they can complete the workflow. Do not claim platform testing that has not happened.
 
-查看宿主公开的工具清单、节点说明、输入输出契约和文件引用机制。为每项所需能力记录实际实现、参数映射、返回证据及限制；不存在的调用不能臆造。
+## Map this task
 
-| 工作流能力 | 可选实现类别 | 要核对的结果 |
+Inspect the host's available tool inventory, node documentation, input/output contracts and file reference mechanism. For each required capability, record the actual implementation, parameter mapping, returned evidence and limitations. Do not invent calls.
+
+| Workflow capability | Possible implementations | What to verify |
 | --- | --- | --- |
-| 查看实际图像 | 图片输入、画布预览、图层查看、资产读取 | 实际像素、目标版本、引用可访问 |
-| 读取与验证编码 | 原生读码工具、二维码插件、可用解码服务、代码库、能提供真实结果的扫码应用 | 原始字节或可无歧义恢复的 ASCII、实际完整图像、冲突内容 |
-| 生成信息导引 | 已验证源图、编码工具、矢量/栅格编辑、节点、遮罩或代码执行 | 当前原始内容保真、功能信息与明暗关系 |
-| 制作与修订画面 | 图像生成、局部重绘、画布图层、节点编辑、支持的向量或图像操作 | 参考角色、构成与信息约束，新的实际成图 |
-| 导出测试变体 | 画布导出、图像转换工具、服务接口或代码 | 实际尺寸、格式、压缩参数、完整画幅 |
-| 绑定与交付 | 文件哈希、内容摘要、保证不可变的资产 ID 与版本、原生保存 | 被验证版本与交付版本一致 |
+| Inspect actual images | Image inputs, canvas previews, layers, asset access | Actual pixels, target version and accessible references |
+| Recover and verify encoding | Native decoders, QR plugins, available decoding services, libraries, scan apps returning real results | Raw bytes or unambiguous ASCII, actual complete image and conflicting content |
+| Build information guides | Verified source, encoder, vector/raster editing, nodes, masks, code | Fidelity to current original content, functional information and tonal relationships |
+| Create and revise images | Image generation, inpainting, canvas layers, node editing, supported vector/image operations | Reference roles, composition and information constraints, new actual output |
+| Export test variants | Canvas export, conversion tools, service APIs, code | Actual size, format, compression settings and full framing |
+| Bind and deliver | File hashes, content digests, guaranteed immutable asset IDs and versions, native saving | Tested and delivered versions match |
 
-一个工具可以承担多项能力；不同工具也可共同完成一项。明确中间结果、引用方式和下一步需要的证据，不强制一个通用工具调用格式。
+One tool can serve several capabilities, and several tools can serve one. Make intermediate results, references and the next step's evidence explicit without imposing a universal calling format.
 
-## 能力不足时
+## Missing capabilities
 
-- 有编辑与查看、没有可靠解码：可做构成或视觉候选，注明未验码；不能交付为可扫码成品。
-- 有解码与编辑、没有代码运行：使用原生导引和导出能力继续，不要求安装 Python/Node，不要求执行附带脚本。
-- 有解码、缺少必要格式或质量导出：继续设计和已支持的诊断，缺失必测项保持未通过；不能换一个标签冒充原要求。
-- 只有输入图、没有可靠原始内容：先补齐读码证据，不用模型猜测文字或生成替代链接。
-- 报告属于旧版本：对当前实际资产重新验证，外观相似或文件名相同不能继承资格。
-- 验证只能辅助定位或裁剪：保留诊断作用，不替代整图验收。
+- Editing and viewing without reliable decoding: create composition or visual candidates labeled unverified; do not deliver verified scannable artwork.
+- Decoding and editing without code execution: use native guidance and export tools; Python/Node and bundled scripts are not required.
+- Decoding without required format or quality export: continue supported design and diagnostics, but missing required tests remain unqualified. Relabeling cannot satisfy them.
+- An input image without reliable content recovery: obtain decoding evidence first; do not guess text or generate a substitute link.
+- A report for an old version: reverify the current actual asset. Similar appearance or the same filename cannot inherit qualification.
+- Checks requiring supplied locations or crops: keep them as diagnostics, not full-image acceptance.
 
-外部服务与新增授权遵守宿主规则和当前用户授权。私人资料不因工具适配进入公共演示或通用资产。
+External services and new authorization follow host rules and current user authorization. Tool adaptation must not move private data into public demonstrations or reusable assets.
 
-## 最小记录
+## Minimum record
 
-任务私有记录至少包含：原始内容基准；实际文件或不可变版本身份；预定测试尺寸、格式和质量；逐项真实解码结果与冲突；外观判断；独立的手机反馈；待完成能力。
+Keep a private task record containing the original content baseline; actual file or immutable version identity; required sizes, formats and qualities; per-item real decoding results and conflicts; appearance review; separate phone feedback; and missing capabilities.
 
-记录格式使用宿主能可靠保存的结构化数据、表格或带资产身份的记录。宿主支持时可采用 JSON 与 SHA-256；字段名和算法不限于附带脚本，证据语义不得减弱。
+Use structured data, tables or asset-bound records the host can reliably preserve. JSON and SHA-256 are suitable where supported, but fields and algorithms need not match the bundled scripts. Evidence must retain the same meaning.
 
-## 可选参考实现
+## Optional reference implementation
 
-具备相应代码环境时，可使用本 Skill 的 Python/Node 脚本作为一条实现路线。所用库、命令、文件名和返回字段只约束这条路线；按其说明读取结果。
+With a suitable code environment, the bundled Python/Node scripts provide one implementation. Their libraries, commands, filenames and output fields apply only to that route; interpret results according to its documentation.
 
-其他路线按主工作流完成同等内容读取、完整图像解码、全部变体测试和交付版本复核。不能把某个库检测成功、一次手机成功或模型自行打分映射为完整验收通过。
+Other routes must still recover the original content, decode complete images, test every variant and recheck delivery identity. Library detection alone, one phone scan or a model's self-score cannot establish full acceptance.
 
-## 单文件与完整目录
+## Single file or complete directory
 
-单独提供 SKILL.md 时，使用其中完整的能力要求、流程和验收条件；不要因不能读取辅助文件而把所有步骤停在命令安装。完整目录提供更细的创意诊断和可选实现。
+When only SKILL.md is supplied, follow its complete capability requirements, workflow and acceptance criteria. Missing references should not reduce every step to installing commands. The full directory adds creative diagnostics and optional implementations.
 
-产品专属的 agents/openai.yaml 等元数据只供识别它们的宿主读取。其他宿主按自己的技能导入或上下文机制使用正文，不把元数据中的产品调用语法视为通用要求。
+Product-specific files such as agents/openai.yaml are only for hosts that recognize them. Other hosts use their own Skill import or context mechanism; metadata invocation syntax is not a universal requirement.

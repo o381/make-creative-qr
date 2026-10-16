@@ -1,33 +1,25 @@
-# 参与贡献
+**English** | [简体中文](CONTRIBUTING.zh-CN.md)
 
-欢迎改进创意构成、扫码稳定性、失败诊断和文档。
-贡献前先说明具体问题与预期行为，再提交范围清晰的 PR。
+# Contributing
 
-## 提交素材
+Improvements to composition, scanning reliability, failure diagnosis and documentation are welcome. Describe the concrete problem and expected behavior before submitting a focused pull request.
 
-所有公开复现材料使用本项目已确认的 GitHub 主页地址。
-先独立重做复现图，验证解码内容；不要提交私人原码或派生作品。
-不提交私人 payload、完整矩阵、任务目录、原始报告或服务凭据。
-引用外部图像、模型或模板时说明来源及允许分发的许可。
+## Contributing assets
 
-## 创意贡献
+Use the project's confirmed GitHub homepage URL for public reproductions. Create fresh reproduction images and verify their decoded content; do not submit private source codes or derived artworks. Exclude private payloads, complete matrices, task directories, original reports and service credentials. State the source and redistribution license of external images, models or templates.
 
-说明不依赖二维码也成立的事件或构成规则、编码由哪些细节承载，
-以及与现有方案在形成机制和分布上的差异。
-审查整图与缩略图中的方形边界、三个特殊角和专门为码构造的面板。
-仅换色、换材质或换背景不构成完整的新方案。
+## Creative contributions
 
-## 验证贡献
+Explain the event or compositional rule that works independently of the QR code, which details carry information, and how formation and distribution differ from existing approaches. Inspect complete images and thumbnails for square boundaries, three special corners and dedicated code panels. Changing only color, material or background is not a complete new approach.
 
-使用当前宿主的真实验码能力验证实际完整文件，并复核交付版本；
-选用附带代码路线时，运行 qualify 与 check_delivery.py。
-默认测试原文件、480/640/800 像素 PNG、各尺寸 JPEG 85。
-报告成功引擎、失败项与手机状态，不以裁剪或已知四角辅助结果代替。
-手机测试用独立记录，不手动修改软件报告。
-修改解码脚本时提供能复现问题的公共内容测试与必要的回归检查。
-生成和修图后重新验证，不沿用其他文件或旧版本的报告。
+## Verification contributions
 
-## 讨论约定
+Use real host decoding on actual complete files and recheck the delivered version. If using bundled code, run `qualify` and `check_delivery.py`. Default tests cover the original file, 480/640/800-pixel PNGs and quality-85 JPEGs at each size. Report matching engines, failures and phone status. Crops or supplied-corner decoding cannot substitute for full-image checks.
 
-具体描述缺陷及证据，尊重不同风格选择。
-涉及隐私或安全的数据请按 SECURITY.md 私下报告。
+Keep phone evidence separate; do not manually edit software reports to claim phone tests. Decoder changes need public-content reproductions and relevant regression checks. Reverify after generation or edits; reports for different files or old versions do not apply.
+
+For translations, keep English at the canonical paths and Chinese in `.zh-CN.md` siblings. Update reciprocal language links and both versions when changing workflow requirements. Preserve image hashes, payloads and the distinction between software and phone evidence.
+
+## Discussion
+
+Describe defects and evidence concretely, and respect different styles. Report private or security-sensitive data through [SECURITY.md](SECURITY.md).

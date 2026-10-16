@@ -1,28 +1,29 @@
-# 发布检查
+**English** | [简体中文](release-checklist.zh-CN.md)
 
-1. **文本和源码整理。** 拆分本稿，审核现有脚本、参考文档和通用资产；保留扫码与外观验收，不削减门槛。
-2. **地址和许可定稿。** 确定 GitHub 所有者、仓库名、精确主页 URL、LICENSE 署名、案例许可和私密报告渠道。
-3. **宿主能力与可选实现复验。** 核对目标 Agent 的实际查看、读码、编辑、导出与版本绑定能力；采用附带代码路线时再检查 Python/Node 依赖与命令。只用公共测试内容验证完整流程与拒绝交付行为，不把未接入的平台写成已支持。
-4. **公开文件审查。** 从白名单形成新的公开仓库；检查全部拟公开文件、提交元数据、分支与发布附件，不迁移私人实验历史。案例图此时仍不上传。
-5. **源码项目就绪。** 发布经审核的源码与文档，确认目标项目主页及 Skill 文件可访问；固定案例的目标 URL。
-6. **公开案例独立重做。** 按认可的创意机制，用项目 URL 生成新矩阵和导引，重新制作整图，不编辑旧图的文字来冒充编码替换。
-7. **逐图完整验收。** 自然感与三个角审查、七项默认软件测试、实际上传版本复测、手机扫码及正确落地页确认。
-8. **案例最后上传。** 源码、文档、公开目标和许可全部改好，案例通过验收及外观认可后，再更新展示图、对应记录和 README。最后发布首个版本标签。
+# Release checklist
 
-发布前须检查：
+1. **Organize text and source.** Review scripts, references and generic assets. Retain scanning and visual acceptance without weakening requirements.
+2. **Finalize address and licensing.** Set the GitHub owner, repository name, exact homepage URL, LICENSE attribution, artwork licenses and private reporting channel.
+3. **Recheck capabilities and the chosen implementation.** Verify the target host's actual viewing, decoding, editing, export and version-binding tools. Check Python/Node dependencies and commands only when choosing the bundled implementation. Use public content to exercise the workflow and rejection paths. Do not claim support for untested platforms.
+4. **Review public files.** Build the public repository from a whitelist. Review proposed files, commit metadata, branches and release attachments. Do not migrate private experimental history. Keep example images out at this stage.
+5. **Publish the source project.** Publish reviewed source and documentation. Confirm that the homepage and Skill files are accessible and fix the target URL for examples.
+6. **Recreate public examples independently.** Use approved creative mechanisms with new matrices and guides encoding the project URL. Do not edit old image text as a substitute for changing encoded content.
+7. **Qualify each actual artwork.** Review natural integration and the three corners, run all seven default software tests, recheck upload copies, and confirm a phone scan opens the correct page.
+8. **Upload examples last.** Once source, documentation, public target and licensing are final, and examples have acceptance and visual approval, update images, records and README. Publish the first release tag last.
 
-- [ ] `<owner>`、`<repo>`、许可署名、报告渠道等占位内容已全部替换。
-- [ ] 当前 Skill 的正常转换仍保留原始内容，公开演示使用项目 URL。
-- [ ] 所有私人二维码及派生编码资料均未进入公开文件或历史。
-- [ ] 当前图片及旧实验图片未作为公开案例上传。
-- [ ] 宿主导入、能力映射与调用说明已复核；选用的代码路线已完成依赖与命令复验。
-- [ ] 图标及通用定位资产的来源、许可和独立性复核完成。
-- [ ] 每个待展示案例读出精确项目 URL，软件与手机证据分别记录。
-- [ ] README 的外观、扫码、兼容性和完成状态表述均有相应证据。
+Before release, check:
 
-2026-10-13：仓库地址确定为 https://github.com/o381/make-creative-qr，原创源码与文档采用 MIT，依赖及字形许可已核对。附带参考路线在 Windows 的任务本地 Python/Node 环境中复验：公共内容 capture、七项 qualify、交付哈希复核及错误载荷/文件变化/缺少变体拒绝行为通过；两份导引与 sharp 栅格化通过。导引可执行不代表任意成图可扫。尚未逐个平台接入实测，无公开艺术案例或手机实扫结论。案例验收后再更新清单并发布版本标签。
+- [ ] Replace all owner/repository, attribution and reporting-channel placeholders.
+- [ ] Normal Skill conversions retain original content; public demonstrations use the project URL.
+- [ ] No private QR codes or derived encoding data enter public files or history.
+- [ ] Private current images and historical experiments are excluded from public examples.
+- [ ] Review host import, capability mapping and invocation guidance; recheck dependencies and commands for the chosen code route.
+- [ ] Review generic locator assets and icons for origin, licensing and independence.
+- [ ] Each showcase image decodes to the exact project URL; software and phone evidence are separate.
+- [ ] README claims about appearance, scanning, compatibility and completion have corresponding evidence.
 
+2026-10-13: The repository URL was fixed as https://github.com/o381/make-creative-qr. Original source and documentation use MIT; dependency and glyph licenses were reviewed. The bundled reference implementation was rechecked in task-local Python/Node on Windows: public-content capture, seven-test qualification, delivery hash review, and rejection of wrong payloads, changed files and missing variants passed. Two guides and sharp rasterization also passed. Executable guides do not prove arbitrary artworks readable. No individual host integrations or public artworks had been tested at that point, and no phone claims were made. The release tag remained pending example acceptance.
 
-## 2026-10-16 案例公开展示
+## 2026-10-16 public showcase
 
-项目所有者要求现在统一上传当前展示作品，发布8张项目URL案例，采用各款当前选定版本（拉链使用清晰修订版）。上传文件逐张重新执行完整七项软件验码，并在案例页和verification.json保留手机状态。破壳奶油彩蛋已有用户打开项目页面的确认，其余7张手机待复核；本次公开展示不补写尚未取得的手机证据。早期源码发布阶段的“案例暂不上传”状态在本次发布更新，私人历史和被撤回的探索图继续保留在本地。未发布版本标签。
+The project owner requested immediate publication of all eight selected project-URL artworks, using each selected version (the zipper image uses the sharper revision). Every uploaded file was freshly checked against all seven software tests. The gallery and verification.json preserve separate phone status: the user confirmed that the cream-filled egg opened the project page; the other seven remain pending phone review. This publication does not invent missing phone evidence. It supersedes the source-only stage's temporary hold on example uploads. Private history and withdrawn experiments remain local. No release tag was published.

@@ -1,119 +1,122 @@
 ---
 name: make-creative-qr
-description: 将真实二维码转化为自然融入场景或抽象构成的创意作品。先确认风格与用途，按当前 Agent 的可用能力选择读码、信息导引、图像编辑、导出和验证工具，不绑定特定平台、模型或命令。保留原始内容，融合明显定位方框及替代角标，对实际完整成图和预定变体逐项验码，分别记录外观、软件解码与手机实扫。用于艺术二维码、场景融合二维码、隐藏二维码与创意二维码修改。
+description: Use when creating or editing artistic QR codes, hidden QR images, or QR codes integrated into scenes or abstract compositions while preserving the original payload and verifying the complete artwork.
 ---
 
-# 创意二维码
+**English** | [简体中文](SKILL.zh-CN.md)
 
-让观看者先看到成立的画面、材料关系与创意，扫描后读出原码内容。创意发生在承载信息的细节中，背景不能代替编码本身的设计。
+# Make Creative QR
 
-将本文件作为平台无关的创作协议。使用当前宿主实际提供的工具、节点、图层操作、插件或接口，遵守其调用格式及适用规则。核心流程可独立阅读；其他参考文件与附带脚本仅在可访问且适用时使用。
+Let viewers see a coherent scene, material relationships and an idea first; scanning must recover the original content. Creativity belongs in the details carrying information. A background alone cannot replace the design of the encoding itself.
 
-## 交付条件
+Use this file as a platform-independent creation protocol. Work with tools, nodes, layers, plugins or APIs actually available in the current host, following their formats and applicable rules. The core workflow is self-contained; use references and bundled scripts only when accessible and appropriate. Communicate in the user's language unless they request another language.
 
-- **内容正确且能扫：** 对实际完整文件和全部预定缩放、压缩版本执行真实解码，读取字节与原码完全一致，且无冲突内容。导引图、裁剪结果或单个尺寸通过都不能批准成图。
-- **整体自然：** 场景有独立成立的事件，抽象作品有自己的构成逻辑。信息区不能像为扫码专设的面板或方形纹理，三个角不能成为独特符号、孤立团块或专属空区。
-- **证据绑定：** 将验证结果绑定到实际文件或不可变资产版本。编辑、重新导出或版本变化后重新验证，不继承旧报告。
-- **状态明确：** 分开记录外观评价、软件解码和手机实扫。用户说“收下”“更自然”不等于扫过；手机失败立即退回。未实扫时说明“软件验证通过，手机实扫未确认”。
+## Delivery conditions
 
-工具可以替换，交付条件必须保留。缺少能力或证据时保留为候选，不宣称完成可扫码成品。
+- **Correct content and real decoding:** decode the actual complete file and every predefined resized or compressed variant. Recovered bytes must exactly match the source, without conflicting content. A readable guide, crop or single size cannot qualify the artwork.
+- **Natural composition:** a scene needs an event that makes sense independently; an abstract work needs its own compositional rule. The information area must not look like a dedicated scanning panel or square texture. Three corners must not become unique symbols, isolated clusters or specially cleared areas.
+- **Bound evidence:** bind results to the actual file or immutable asset version. Reverify after editing, exporting again or changing versions; do not inherit an old report.
+- **Separate status:** record appearance, software decoding and phone scans separately. “Keep it” or “more natural” does not mean the user scanned it. A failed phone scan sends it back for revision. Without phone evidence, say “software checks passed; phone scan not confirmed.”
 
-## 0. 映射宿主能力
+Tools can change; these conditions remain. Missing capabilities or evidence leave a candidate, not a completed verified scannable artwork.
 
-先查看实际工具清单、调用规范和输出字段。按下列能力选择当前可用实现，不照抄其他平台的工具名、命令、路径、图像编号或参数。不得臆造不存在的接口。
+## 0. Map the host's capabilities
 
-| 能力 | 必须获得的结果 |
+Inspect the actual tool inventory, invocation rules and output fields. Choose available implementations for the following capabilities. Do not copy another platform's tool names, commands, paths, image numbers or parameters, or invent an interface.
+
+| Capability | Required result |
 | --- | --- |
-| 图片访问与查看 | 读取真实原图、实际成图及具体资产版本 |
-| 二维码解码 | 获得可靠原始内容；对实际图像解码并返回可核对的内容 |
-| 信息结构与导引 | 保留或构建当前内容的准确编码约束及必要功能信息 |
-| 图像创作与编辑 | 按构成修改画面，保持编码位置、明暗关系与比例约束 |
-| 尺寸与格式导出 | 制作预定尺寸和压缩条件的完整图像变体 |
-| 验证与版本绑定 | 记录逐项结果，并确认交付文件仍是被验证的版本 |
+| Image access and viewing | Read the actual source, finished image and specific asset version |
+| QR decoding | Obtain reliable original content and verifiable decoded content from actual images |
+| Information structure and guidance | Retain or construct exact encoding constraints and required functional information for the current content |
+| Image creation and editing | Modify the composition while maintaining information positions, tonal relationships and proportions |
+| Size and format export | Produce complete-image variants at the predefined sizes and compression settings |
+| Verification and version binding | Record each result and confirm that the delivered file is the tested version |
 
-优先复用宿主已有能力。图片编辑、画布图层、节点工作流、原生插件、服务接口或代码执行均可承担合适步骤；具体选择须依据实际能力。新服务的使用与数据外发遵守宿主规则和已有授权，不为补齐能力公开上传私人原码。
+Prefer existing host capabilities. Image editing, canvas layers, node workflows, native plugins, service APIs and code execution can each serve appropriate steps. Choose based on actual capabilities. New services and data transfers follow host rules and existing authorization; do not publicly upload private source codes to fill a capability gap.
 
-如果缺少工具，先检查是否有达到同等结果的现有替代。没有真实解码能力时，只能进行明确标记的构成或视觉草稿；不能用模型看图、估计码点或“应该能扫”代替测试。缺少预定导出或可靠内容读取能力时，明确未完成项，不安装宿主不支持的运行时，不降低验收要求。
+If a tool is missing, look for an existing equivalent. Without real decoding, make only clearly labeled composition or visual drafts. Model inspection, estimated modules and “should scan” are not tests. If required export or reliable content recovery is missing, state the incomplete items. Do not install unsupported runtimes or lower acceptance requirements.
 
-能访问辅助文件时，读 [工具适配](references/tool-adaptation.md)；仅在具备相应代码执行环境并决定使用附带脚本时，读 [可选参考实现](references/execution.md)。
+When accessible, read [tool adaptation](references/tool-adaptation.md). Read [the optional reference implementation](references/execution.md) only when the code environment is available and you choose the bundled scripts.
 
-## 1. 先询问，再制作
+## 1. Ask before creating
 
-首次制作前必须询问风格、感兴趣的元素或场景、配色及用途，并取得回答。已有明确偏好时沿用，不重复询问；用户在询问后回答“你决定”时自主选择并说明方向。
+Before the first creation, ask about style, interesting elements or scenes, palette and intended use, and obtain an answer. Reuse established preferences without asking again. If the user answers “you decide,” choose a direction and state it.
 
-风格可包括鲜艳卡通、二次元、抽象几何、材料微距、平面拼贴。菜单随用户变化，不自行把游戏或科幻理解为赛博朋克、霓虹电路或传奇式魔幻。自然感不要求写实、自然景观或食物。
+Styles may include colorful cartoons, anime, abstract geometry, material macro photography and collage. Adapt suggestions to the user. Do not assume games or science fiction mean cyberpunk, neon circuits or fantasy magic. Natural integration does not require realism, landscapes or food.
 
-等待回答时可读取原码、检查工具与准备测试基线，不开始视觉生成。根据回答提出具体形成机制与画面构成，不仅列风格名称。
+While waiting, you may decode the source, inspect tools and prepare a testing baseline; do not start visual generation. Turn the answer into a specific formation process and composition, rather than just style names.
 
-## 2. 锁定原内容，隔离私人素材
+## 2. Lock the content and isolate private assets
 
-查看实际上传图。引用失效时用当前宿主的已知资产或文件恢复方式读取；仍无法访问时请用户重新提供，不凭聊天印象重造内容。
+Inspect the actual uploaded image. If its reference has expired, use the current host's known asset or file recovery mechanism. If it remains inaccessible, ask the user to provide it again. Do not reconstruct the content from conversation memory.
 
-用可靠解码能力读取一份明确内容，保留原始 payload 字节。仅返回显示文本的识别器，在 ASCII 内容能无歧义恢复时可按精确 ASCII 字节比对；非 ASCII 或二进制内容必须核对原始字节，不推测编码。不要跳转、缩短、去空格、重新拼接或改写内容。多码时先指定目标，无法可靠读取时不生成替代编码。
+Use reliable decoding to obtain one unambiguous payload and retain its original bytes. A text-only decoder may support exact ASCII-byte comparison when recovery is unambiguous. For non-ASCII or binary content, verify raw bytes rather than guessing an encoding. Do not follow redirects, shorten, trim, reassemble or rewrite the content. Select the target when multiple codes exist. If content cannot be recovered reliably, do not generate substitute encoding.
 
-将原码、payload、完整矩阵、成图及识别记录保存在本任务的私有资产或工作区，不写入 Skill、通用资产、公开示例、日志或测试夹具。SVG、缩略图、图层和 Base64 同样可能携带私人编码。不要把上一位用户的编码用于下一位用户。
+Keep source codes, payloads, complete matrices, artworks and decoding records in this task's private assets or workspace. Do not put them in the Skill, reusable assets, public examples, logs or fixtures. SVGs, thumbnails, layers and Base64 can also carry private encoding. Never reuse one user's encoding for another user.
 
-正常转换必须保留用户原始内容。项目公开展示统一使用已确认且可访问的 GitHub 仓库主页 URL，重新编码、制作、验收后最后发布；地址未定时不生成公开案例。旧的私人实验图不进入公开案例。通用定位资产仅可包含与 payload 无关的功能区几何。
+Normal conversions retain the user's original content. Public project showcases use the confirmed, accessible GitHub repository homepage URL, followed by fresh encoding, creation, verification and finally publication. Do not generate public examples before the address is fixed. Historical private experiments stay out of public examples. Generic locator assets may contain only payload-independent functional geometry.
 
-## 3. 先设计形成机制，再布置信息
+## 3. Design the formation process before placing information
 
-用三句话固定：
-1. 不提二维码也成立的场景事件，或抽象作品的构成规则。
-2. 材料从哪里来、如何聚散，信息由哪些真实可见细节承载。
-3. 本款与上一款在形成机制、分组、方向、尺度、边界或场景关系中的至少两项差异。
+Fix three things in three sentences:
 
-先由事件决定主体、视角、材料行为与疏密，再安排信息结构。不要先摆居中方阵再编故事，不把玩偶身体、骰子正面等专门做成码面。
+1. A scene event that makes sense without mentioning QR codes, or an abstract work's compositional rule.
+2. Where the material comes from, how it gathers and disperses, and which visible details carry information.
+3. At least two differences from the previous work in formation process, grouping, direction, scale, boundaries or relationship to the scene.
 
-同时设计整体、团块与颗粒三个尺度，变化来自同一材料行为或抽象规则。固定方阵的毛边、外围撒点、三个角接尾巴或添加无来历的团块，不能证明自然。信息区与外围共享合理材料、粒径范围与连续密度变化，保护必要明暗间隙。
+Let the event determine the subject, viewpoint, material behavior and density before arranging information. Do not start with a centered square grid and invent a story for it, or turn a doll's body or a die's face into a dedicated code surface.
 
-换款先换构成；仅换色、材质、角色、旋转或 mask 不算新的创意。功能信息必须保留，融合其显性造型，不声称彻底删除定位信息仍可稳定识别。
+Design the whole image, clusters and particles together; variation must follow the same material behavior or abstract rule. Ragged edges on a fixed grid, scattered outer dots, tails on three corners or unexplained clusters do not establish naturalness. Inside and outside the information area, share plausible materials, particle-size ranges and continuous density changes while protecting necessary light and dark gaps.
 
-辅助材料可访问时，读 [创意审查与失败诊断](references/creative-review.md)。
+Change composition first for each new work. Recoloring, changing material or character, rotating, or changing the mask alone is not a new idea. Preserve functional information while integrating its visible form. Do not claim stable scanning after completely removing locator information.
 
-## 4. 建立信息约束，制作实际作品
+When accessible, read [creative review and failure diagnosis](references/creative-review.md).
 
-以锁定内容的编码结构、已验证原图或保真重编码结果建立信息约束。使用宿主支持的栅格参考、图层、遮罩、矢量或节点工作流，不要求固定文件格式或模板。
+## 4. Build information constraints and create the actual artwork
 
-按本次构成安排整体比例、偏移和合法分组；选择不会遮挡编码、产生强曲率或强反光的视角。需要新排列时从同一原始字节重编码，不任意移动模块、不局部旋转或镜像定位轮廓。先检查当前导引可解码，再继续制作；导引通过不能代替实际成图验收。
+Build constraints from the locked payload's encoding structure, a verified source image or faithful re-encoding. Use raster references, layers, masks, vectors or node workflows supported by the host; no fixed format or template is required.
 
-按宿主可用的创作或编辑能力实施，并遵守其适用规则。先查看实际输入，明确各输入的角色：当前导引提供信息位置、明暗间隙、比例与画幅约束；风格参考仅提供审美，不提供编码内容。用当前工具支持的引用方式或语义标签传递角色，不强制“图片 1/图片 2”等排序。
+Arrange scale, offset and valid grouping for this composition. Choose a viewpoint that avoids occlusion, strong curvature and glare. When a new arrangement is needed, re-encode the same original bytes. Do not arbitrarily move modules, locally rotate or mirror locator contours. Check that the guide decodes before proceeding; a passing guide does not qualify the actual artwork.
 
-创作指令先描述事件、材料来历与构成，再约束信息。让编码材料参与事件，控制高光、阴影和新增元素；不只生成背景后贴常规二维码，不随机重造编码或加入三个替代角标。新款先建立自己的构成，不能复用同一布局换皮。
+Use the host's available creation or editing tools and follow their applicable rules. Inspect the actual inputs first and assign their roles: the current information guide constrains positions, tonal gaps, proportions and framing; style references supply aesthetics only, never encoded content. Use supported references or semantic labels rather than requiring an “image 1/image 2” order.
 
-修改方法不限于一种工具。任何生成、重绘、图层修改、几何变换或导出，都须对新的实际文件重新审查与验码。
+Describe the event, material origin and composition before the information constraints. Make encoded materials participate in the event; control highlights, shadows and additions. Do not just generate a background and paste a conventional QR onto it, randomly recreate encoding or introduce three replacement corner icons. Each new work needs its own composition.
 
-辅助材料可访问时，读 [信息导引与材质编辑](references/proven-workflow.md)。其中脚本参数只属于可选参考实现。
+Revisions can use different tools. Every generation, repaint, layer edit, geometric transformation or export requires renewed visual review and decoding of the new actual file.
 
-## 5. 双重验收与反馈修订
+When accessible, read [information guides and material editing](references/proven-workflow.md). Its script parameters belong only to the optional reference implementation.
 
-先看整图与约 320 像素缩略图，再看细节。缩略图只用于审美。检查独立构成、材料关系、方形边界、三个特殊角、区内外连续性与元素完整性。整体分布失败回到构成步骤，局部材质问题才做小步编辑。
+## 5. Review appearance, verify decoding and revise
 
-生成前固定实际输出和必测变体。默认手机分享测试为：实际完整文件，加上 480、640、800 像素宽 PNG，以及各尺寸 JPEG 质量 85，共七项。实际文件须覆盖最大必测宽度，不通过内部放大补足。其他用途在生成前确定测试要求；失败后不得删项或降低门槛。
+Inspect the complete image and an approximately 320-pixel thumbnail before details. The thumbnail is for aesthetics only. Check independent composition, material relationships, square boundaries, three special corners, continuity across the information area's boundary and intact elements. Overall distribution failures require composition changes; local material failures may use small edits.
 
-将尺寸与压缩要求映射到宿主实际支持的导出参数，并核对结果。工具不支持或未确认 JPEG 质量时，不能把默认导出冒称为质量 85。缺少必测变体时保持未通过状态。
+Fix the actual output and required variants before generation. The default phone-sharing profile has seven tests: the actual complete file, plus PNG and quality-85 JPEG at widths of 480, 640 and 800 pixels. The actual file must cover the largest required width without internal upscaling. Define other use profiles before creation; do not remove tests or lower thresholds after failure.
 
-对实际完整图像及全部变体执行真实解码。每项至少一个解码器读出原始字节，且无冲突内容；有多个独立解码实现可用时做交叉检查，记录实际使用的工具。检测到四边形、裁剪成功、已知四角辅助或纯码模式均不合格。
+Map size and compression requirements to supported export parameters and check the results. If JPEG quality is unsupported or unconfirmed, do not label a default export quality 85. Missing required variants leave the result unqualified.
 
-保存逐文件、逐项结果、失败项及实际文件身份。可以使用内容摘要、文件哈希或经宿主保证的不可变资产 ID 与版本；普通文件名、可覆盖 URL 或相似构图不能作为绑定证据。更改图像、编码、导出或资产版本后旧结果失效。
+Run real decoding on the actual complete image and every variant. Each item needs at least one decoder to recover the original bytes without conflicting content. Cross-check with independent implementations when available and record tools actually used. Quadrilateral detection, successful crops, supplied corner coordinates and pure-code mode do not qualify.
 
-软件解码不等于手机 App 实扫，分开记录实测方式和对应文件。未实测不能标记已手机验证；用户反馈扫描失败具有否决权。公开展示案例须另完成手机实扫，确认读出精确项目 URL 并打开正确主页。
+Save per-file and per-test results, failures and actual file identity. Use a content digest, file hash or host-guaranteed immutable asset ID and version. An ordinary filename, overwritable URL or similar composition cannot bind evidence. Changes to image, encoding, export or asset version invalidate old results.
 
-| 失败 | 修订方向 |
+Software decoding is not a phone app scan. Record the method and corresponding file separately. Do not mark phone verification without an actual test; user-reported phone failure has veto power. Public showcases additionally require phone scanning of the exact project URL and confirmation that the correct homepage opens.
+
+| Failure | Revision direction |
 | --- | --- |
-| 导引通过，成图失败 | 对照整场比例、信息位置、功能区轮廓与灰度，先修复信息偏差 |
-| 颗粒自然但无法检测 | 检查暗核、浅色带、高光与阴影；平均灰度或码点中心近似不证明可扫 |
-| 只有部分尺寸或压缩版本成功 | 保留原必测项，修复或导出新候选，再完整复验 |
-| 修复可扫后角标或方阵突出 | 回到构成、材料分布与定位区融合，再做双重验收 |
-| 当前文件与证据版本不一致 | 停止成品交付，对当前实际文件重新验证 |
+| Guide passes, artwork fails | Compare whole-scene scale, information positions, functional contours and grayscale; repair information drift first |
+| Natural particles but no detection | Check dark cores, light bands, highlights and shadows; similar average grayscale or module centers do not prove readability |
+| Only some sizes or compression variants pass | Keep all original tests, repair or export a new candidate, then rerun the complete profile |
+| Scan repair exposes corners or a square grid | Revisit composition, distribution and locator integration, then repeat both reviews |
+| Current file differs from the evidence version | Stop finished delivery and reverify the actual current file |
 
-不靠不断提高版本或纠错碰运气，不偷偷加回三个明显方框。提示词“严格保持”不能证明实际保真。技术通过但外观不合格也要修订；软件未通过只能展示为明确标记的诊断草稿。
+Do not rely on ever-higher versions or error correction, or quietly restore three obvious squares. A prompt saying “preserve exactly” is not evidence. Technically passing but visually poor work still needs revision. Software failures may only be shown as clearly labeled diagnostic drafts.
 
-## 6. 交付与经验记录
+## 6. Deliver and record transferable lessons
 
-交付前确认：当前实际文件仍是被验证的版本、原始内容一致、全部预定测试通过、外观合格、手机状态明确。任一证据缺失或冲突立即修复与复验。按宿主的文件保存、图片展示或资产交付机制提供实际作品，不要求某个固定 API 或路径。
+Before delivery, confirm that the current file is the tested version, original content matches, every required test passes, appearance is acceptable and phone status is explicit. Repair and recheck any missing or conflicting evidence. Deliver the actual work through the host's file, image or asset mechanism; no fixed API or path is required.
 
-简述形成机制、内容一致、验证工具与测试条件、手机状态。缺少手机证据时称为待手机复核的候选；缺少软件验码时不能称为可扫码成品。
+Briefly explain the formation process, content match, verification tools and conditions, and phone status. Without phone evidence, call it a candidate pending phone review. Without software decoding, do not call it a scannable finished work.
 
-将用户反馈绑定到具体文件与版本，分别记录偏好、外观、软件资格和手机证据。重新上传的文件重新验证；源图认可不自动传递给修订图。“更自然但仍刻意”不能概括成完全合格。
+Bind user feedback to specific files and versions. Record preferences, appearance, software qualification and phone evidence separately. Reverify uploaded copies. Approval of a source image does not automatically apply to a revision. “More natural, but still forced” must not become “fully accepted.”
 
-更新 Skill 时只保存可迁移的构成方法、失败判据、工具能力映射与修订路径。保留反例教训，不保存私人实验编码、图像或报告，不将未验证方法固化成成功配方。
+When updating the Skill, retain transferable composition methods, failure criteria, capability mappings and revision paths only. Keep lessons from counterexamples; exclude private experimental codes, images and reports. Do not turn an unverified method into a proven recipe.

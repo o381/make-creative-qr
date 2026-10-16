@@ -1,14 +1,15 @@
-## 问题与结果
+**English** | [简体中文](PULL_REQUEST_TEMPLATE.zh-CN.md)
 
-说明触发问题、改动后的行为，以及对自然感或扫码能力的影响。
+## Problem and result
 
-## 验证
+Describe the trigger, resulting behavior, and effects on natural integration or scanning.
 
-说明实际文件、必测尺寸和压缩项、成功引擎与手机状态。
-脚本修改提供必要的复现与回归结果；纯文字修改说明核对依据。
+## Verification
 
-## 公开内容检查
+List actual files, required sizes and compression settings, matching engines and phone status. Include relevant reproductions and regression results for script changes; describe review evidence for text-only changes.
 
-- [ ] 未提交私人原码、编码字节、完整矩阵、实验图、私有报告或凭据
-- [ ] 公开复现使用本项目主页地址，素材来源与许可明确
-- [ ] 新增案例满足完整验收；未验收案例未作为完成作品提交
+## Public content checks
+
+- [ ] No private source codes, payload bytes, complete matrices, experimental images, private reports or credentials
+- [ ] Public reproductions use the project homepage URL, with clear asset sources and licenses
+- [ ] New examples meet full acceptance; unqualified candidates are not submitted as finished work

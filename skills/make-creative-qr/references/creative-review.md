@@ -1,75 +1,77 @@
-# 创意构成、外观审查与失败诊断
+**English** | [简体中文](creative-review.zh-CN.md)
 
-## 制作前：让分布有来历
+# Composition, appearance review and failure diagnosis
 
-用三句话说明独立成立的事件或抽象规则、承载信息的形成机制、与上一款至少两处构成差异。题材名称不能代替构成：换角色或物体，仍保留中央方阵加三个特殊团块，属于重复布局。
+## Before creation: give distribution an origin
 
-自然感来自材料和空间的关系，不等于照片质感，也不等于随机噪声。允许夸张、幻想和二维画面，但材料的聚散、接触、运动或层叠应服从画面自己的规则。不要为一块现成编码补写故事。
+Use three sentences to define an independent event or abstract rule, the formation process carrying information, and at least two compositional differences from the previous work. A theme name is not a composition. A new character or object surrounding the same central grid and three special clusters repeats the layout.
 
-在构建导引图前检查三个尺度：
+Natural integration comes from material and spatial relationships, not photographic realism or random noise. Exaggeration, fantasy and two-dimensional scenes are welcome, but gathering, dispersal, contact, motion and layering must follow the image's own rules. Do not retrofit a story to an existing code block.
 
-| 尺度 | 要设计什么 | 常见伪自然 |
+Before building the guide, check three scales:
+
+| Scale | What to design | False naturalness |
 | --- | --- | --- |
-| 整体 | 来源、去向、主次、疏密、边界与事件关系 | 中央是一块矩形编码，角色在旁边，四周加装饰。 |
-| 团块 | 大小变化、聚合与分散、方向及接触关系 | 三个角各一块同规格团块，或凭空增加同款团块作掩护。 |
-| 细节 | 粒径、边缘、空隙、光泽与材料连续性 | 在固定码形上加毛边、颗粒和噪声，构成仍完全相同。 |
+| Whole image | Origin, destination, hierarchy, density, boundaries and relationship to the event | A central rectangle of encoding, a character beside it and decorations around it |
+| Clusters | Size variation, gathering, dispersal, direction and contact | Three matching corner clusters, or arbitrary matching clusters added as camouflage |
+| Details | Particle sizes, edges, gaps, gloss and material continuity | Fraying, particles and noise on the same unchanged code-shaped composition |
 
-精确信息位置不能随意随机化。通过合法分组、当前内容的新矩阵、整场布局以及安全外围的合理延续探索构成；每次改变都重新验证。
+Do not arbitrarily randomize exact information positions. Explore valid grouping, new matrices for the same content, whole-scene layout and plausible continuation in safe exterior areas. Verify every change.
 
-## 比较作品：提炼差异，不复制布局
+## Compare works: extract differences without copying layouts
 
-以下是可迁移的比较方法，不是成功配方：
+These are transferable comparison methods, not proven recipes:
 
-- 疏密过渡、大小不同的团块和跨越编码区内外的同类细屑，可能降低专设码面的感觉；前提是它们服从同一形成机制，必要明暗间隙得到保护。
-- 光滑且厚重的连续轮廓、近似均匀的线宽和规则空洞，容易让整体像一块设计好的图案。连续材料本身并不失败；检查它是否暴露了矩形主体和模块节奏。
-- 毛边或粉末可以弱化局部轮廓，却可能保留同一方形密集区。不要把纹理变复杂误认为构成变自然。
-- 用几条细线、尾巴或支流连接定位区，只改变连通性；如果三处位置、避让空间和主信息区边界仍显眼，继续重构。
-- 除三处定位区外加入相似团块不是自动解法。没有材料来历、密度过渡或场景关系的陪衬，可能使整张图更刻意。
-- 材料自然与事件清楚是两个判断。更换材质后重新检查动作、接触和材料行为是否相互解释；不能只保留更粗糙的表面，却丢掉清楚的事件关系。
+- Density transitions, varied cluster sizes and related particles crossing the information boundary may reduce the dedicated-panel impression, provided they share one formation process and preserve necessary tonal gaps.
+- Smooth, heavy continuous contours, nearly uniform line widths and regular holes can expose a designed pattern. Continuous material is not inherently a failure; check whether it reveals a rectangular subject and module rhythm.
+- Ragged edges or powder may soften local contours while leaving the same dense square. More complex texture does not establish a more natural composition.
+- Thin lines, tails or branches connecting locator regions change connectivity only. Reconstruct if the three positions, reserved gaps and information boundary still stand out.
+- Adding similar clusters elsewhere is not an automatic solution. Camouflage without material origin, density transitions or scene relationships can look even more contrived.
+- Natural material and a clear event are separate judgments. After a material change, recheck whether action, contact and behavior explain each other. Do not retain a rougher surface at the expense of a coherent event.
 
-保留用户的比较层级。“第一张比第二张自然，但第一张仍刻意”包含偏好和保留意见，不能概括成“第一张已自然融入”。提炼有帮助的机制，同时写出尚未解决的结构缺陷。
+Preserve the user's comparison hierarchy. “The first is more natural than the second, but still forced” expresses both preference and reservation, not full integration. Extract useful mechanisms and record unresolved structural defects.
 
-## 成图：先看整体，再看细节
+## Review the whole image before details
 
-看完整画面和约 320 像素宽缩略图，再放大检查材料。缩略观察只用于外观，不能替代扫码测试。依次判断：
+Inspect the complete image and an approximately 320-pixel-wide thumbnail before zooming into materials. Thumbnails assess appearance, never scanning. Check in order:
 
-1. **独立成立：** 不提扫码，观看者能否理解事件、材料为何出现、如何分布？抽象画面是否有自己的构成逻辑？
-2. **没有专设码面：** 整体是否仍像矩形密集图案，接几条外伸线、换毛边后也一样？外围是否只负责装饰？不能裁掉场景来规避。
-3. **三个角没有特殊待遇：** 比较左上、右上、左下与全场的尺寸、锐度、灰度、空隙及周围细屑。三处独有的团块、卫星点、模糊阴影、图标、圆环或清空区均须修订；形状不方也一样。
-4. **区内外连续：** 材料、粒径范围、厚度和光泽是否一致，密度是否有合理过渡？中央细小平面码点、外围全是立体大块仍会暴露信息区。
-5. **元素完整：** 花色、字符、几何图形或角色是否被拉成无意义的黏连怪形？无法兼顾自身形态与编码时，换承载机制。
-6. **不同款真的不同：** 忽略背景和配色，形成机制、聚散、方向、边界和场景关系是否改变？仅换 mask 或角色不能证明新创意。
+1. **Independent composition:** without mentioning scanning, can a viewer understand the event, material origin and distribution? Does an abstract image have its own rule?
+2. **No dedicated code surface:** does the whole still look like a dense rectangle, even with extended lines or ragged edges? Is the exterior merely decorative? Do not crop away the scene to evade this check.
+3. **No special treatment for three corners:** compare upper-left, upper-right and lower-left regions with the whole for size, sharpness, grayscale, gaps and surrounding particles. Unique clusters, satellite dots, blurred shadows, icons, rings and cleared areas require revision, even if they are not square.
+4. **Continuity across the boundary:** are materials, particle-size ranges, thickness and gloss consistent, with plausible density transitions? Tiny flat central marks surrounded only by large three-dimensional pieces still expose the code area.
+5. **Intact elements:** have patterns, characters, geometry or figures become meaningless fused shapes? If recognizable form and encoding cannot coexist, change the carrier mechanism.
+6. **Real variation between works:** ignoring color and background, have formation, gathering, direction, boundaries and scene relationships changed? A different mask or character is insufficient.
 
-任一项失败，记录具体位置和关系。整体边界、事件或分布失败时回到构成；仅材质细节失败时做小步编辑。不要在同一主体布局上连续换皮。
+For every failure, record its specific location and relationship. Boundary, event or distribution failures need composition changes; local material issues may use small edits. Do not repeatedly reskin the same subject layout.
 
-## 反馈与案例资格
+## Feedback and example qualification
 
-在任务私有记录中分开保存以下状态，绑定实际文件及哈希或经宿主保证的不可变资产版本：
+Keep the following states separate in private task records, bound to the actual file and hash or host-guaranteed immutable asset version:
 
-| 状态 | 可记录的证据 | 不能据此推定 |
+| State | Valid evidence | What it does not establish |
 | --- | --- | --- |
-| 相对偏好 | 用户喜欢哪张、比较顺序、仍指出的缺陷 | 该张已通过外观验收。 |
-| 外观判断 | 整图审查结果和用户具体反馈 | 能扫描，或已经手机实扫。 |
-| 软件资格 | 当前完整文件与全部预定变体的真实解码记录 | 手机 App 必能扫描。 |
-| 手机证据 | 用户或实际执行的扫描反馈、文件、方式 | 另一版本、下一张或其他扫描方式也通过。 |
+| Relative preference | Which image the user prefers, ranking and remaining defects | Visual acceptance |
+| Appearance judgment | Whole-image review and specific user feedback | Readability or an actual phone test |
+| Software qualification | Real decoding of the current complete file and all required variants | Guaranteed phone app scanning |
+| Phone evidence | Actual user or operator feedback, corresponding file and method | Acceptance of another version, next artwork or other scanning methods |
 
-喜欢或“收下”但未完成全尺寸验证的图，可留作视觉参考，不能收进可扫码展示案例。重新上传即对该份实际文件重新验证。用户手机失败具有否决权，软件通过不能覆盖。
+A liked or collected image without complete size testing can remain a visual reference, not a qualified scannable showcase. Reverify the actual uploaded copy. A user's failed phone scan has veto power; software success cannot override it.
 
-## 从失败选择修订
+## Choose revisions from evidence
 
-| 观察或证据 | 下一步 |
+| Observation or evidence | Next action |
 | --- | --- |
-| 导引图通过，实际成图全失败 | 比较整场比例、偏移、模块中心及功能区灰度；先修复信息偏差，停止堆背景细节。 |
-| 数据中心大致正确，整图不能检测 | 检查暗核、浅色间隔、灰度边缘及高光、阴影。中心正确和平均灰度近似不能证明可扫。 |
-| 粉末或排线版更自然但解码失败 | 检查颗粒侵入浅色带、排线掏空暗核或密度改变。保留其视觉经验，不能称为成品。 |
-| 高纠错仍不能检测，或仅原图通过 | 回到功能轮廓、间隙和显示尺度，不继续只靠升版本或纠错级别碰运气。 |
-| 环状版能扫，拆散后失败 | 保留技术回退，不把环状版当自然成功；改承载机制并复测，不直接删功能信息。 |
-| 只有部分尺寸或压缩版本通过 | 保持生成前的必测项，修复或机械导出新候选，再对实际新文件与全部预定变体完整复验。 |
-| 扫码修复使三个角或方阵重新突出 | 再做外观审查；回到布局、形成机制或材料选择，不能以技术成功结束。 |
-| 图片改动、复制损坏或哈希变化 | 停止交付与保存，重新导出、完整解码、重新绑定报告。 |
+| Guide passes; actual artwork fails every test | Compare whole-scene scale, offset, module centers and functional grayscale. Repair information drift before adding background detail. |
+| Data centers look approximately correct but detection fails | Check dark cores, light gaps, grayscale edges, highlights and shadows. Approximate centers and average grayscale do not prove readability. |
+| Powder or hatching looks more natural but fails | Check intrusion into light bands, hollowed dark cores and density changes. Keep visual lessons without calling it finished. |
+| High error correction still fails detection, or only the original passes | Revisit functional contours, gaps and display size rather than only raising version or correction level. |
+| Rings decode but fragments fail | Keep the technical fallback without declaring the ring version a natural success. Change the carrier mechanism and retest; do not simply delete functional information. |
+| Only some sizes or compression variants pass | Retain the predefined tests. Repair or mechanically export a new candidate, then fully retest the actual new file and every variant. |
+| Decoding repairs expose three corners or a grid | Repeat appearance review and revisit layout, formation or material choice; technical success is insufficient. |
+| Image changed, copying damaged it, or hash changed | Stop delivery and final saving. Export again, fully decode and bind a new report. |
 
-图像模型可能放大信息区、裁掉外围、把多颗粒概括成大符号。提示词“严格保持”不是验证结果。SVG 修正导引图是技术资料，不是艺术成品；裁剪、已知四角或纯码检测也不能批准交付。
+Image models may enlarge the information area, crop the exterior or merge particles into large symbols. “Preserve exactly” in a prompt is not verification. A corrected SVG guide is technical material, not a finished artwork. Crops, supplied corners and pure-code detection cannot qualify delivery.
 
-整图角度、信息比例、外围分布、材质和亮度变化均须复测。数学上保留比例不代表实际检测稳定；一次成功的色值、尺寸或校准系数不能推广为固定配方。
+Retest changes to angle, information scale, exterior distribution, material and brightness. Mathematically preserved proportions do not guarantee stable detection. One successful color, size or calibration coefficient is not a universal recipe.
 
-技能只保存可迁移的操作、外观判据和失败路径，不保存私人实验图、矩阵、链接或报告。尚未通过实际完整成图验收的方法须标记为探索，不能写成已验证成功做法。
+Keep only transferable operations, visual criteria and failure paths in the Skill. Exclude private experimental images, matrices, links and reports. Methods that have not passed actual complete-artwork acceptance remain exploratory, not proven.
