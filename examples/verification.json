@@ -1081,6 +1081,115 @@
           "passed": true
         }
       ]
+    },
+    {
+      "id": "popcorn-weather",
+      "title": "锅里正在酝酿一场雨",
+      "title_en": "A saucepan dreams of rain",
+      "description": "桌上的爆米花聚成一团云，金色玉米粒成为雨滴；颗粒与空隙共同承载信息。",
+      "description_en": "Popcorn arranged on a tabletop becomes a cloud, with golden corn kernels as raindrops; whole pieces and their gaps carry the information.",
+      "image": "images/popcorn-weather.png",
+      "image_sha256": "f2ee77a4a70b55de5a9d9192eb45e795fe8f206ca754fb321b2dbe2c443b031c",
+      "size": [
+        1254,
+        1254
+      ],
+      "publication_date": "2026-10-18",
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
     }
   ],
   "last_updated": "2026-10-17"

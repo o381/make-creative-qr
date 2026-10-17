@@ -4,10 +4,11 @@
 
 Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-These ten works were published at the project owner's request: the first eight on 2026-10-16, followed by “A sea still on the loom” and “Mountains rise from a record” on 2026-10-17. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+These eleven works were published at the project owner's request: eight on 2026-10-16, two on 2026-10-17, and “A saucepan dreams of rain” on 2026-10-18. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
 
 | Artwork | Phone scan status |
 | --- | --- |
+| [A saucepan dreams of rain](#popcorn-weather) | Pending phone review |
 | [Mountains rise from a record](#record-mountains) | Pending phone review |
 | [A sea still on the loom](#loom-sea) | Pending phone review |
 | [A pencil's shadow becomes a whale](#pencil-whale) | Pending phone review |
@@ -18,6 +19,14 @@ These ten works were published at the project owner's request: the first eight o
 | [Shavings of night](#shaved-night) | Pending phone review |
 | [Stretched yellow film](#stretched-film) | Pending phone review |
 | [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
+
+<a id="popcorn-weather"></a>
+
+## A saucepan dreams of rain
+
+Popcorn arranged on a tabletop becomes a cloud, with golden corn kernels as raindrops. Whole food pieces and the spaces between them carry the information; directional light and contact shadows ground them on the table.
+
+<a href="images/popcorn-weather.png"><img src="images/popcorn-weather.png" width="640" alt="Popcorn forms a cloud beside a sage saucepan, with golden corn kernels arranged below as rain"></a>
 
 <a id="record-mountains"></a>
 

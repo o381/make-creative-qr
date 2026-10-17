@@ -14,11 +14,11 @@ Make Creative QR 围绕真实二维码载荷，协同组织材料构成、信息
 
 <a href="examples/README.zh-CN.md"><img src="examples/images/zipper-city.png" width="640" alt="拉链里藏着一座城：屋顶与巷道承载项目二维码信息"></a>
 
-[浏览全部 10 张案例 →](examples/README.zh-CN.md) · [文件与验证记录](examples/verification.json)
+[浏览全部 11 张案例 →](examples/README.zh-CN.md) · [文件与验证记录](examples/verification.json)
 
 实际上传文件与六个分享变体均通过软件验码，统一指向本仓库。手机实扫状态逐图标注，尚未实测的作品保留为待复核。
 
-[新增：唱片里升起了山脉 →](examples/README.zh-CN.md#record-mountains)
+[新增：锅里正在酝酿一场雨 →](examples/README.zh-CN.md#popcorn-weather)
 
 ## 设计立场
 
