@@ -972,6 +972,115 @@
           "passed": true
         }
       ]
+    },
+    {
+      "id": "record-mountains",
+      "title": "唱片里升起了山脉",
+      "title_en": "Mountains rise from a record",
+      "description": "唱片外缘的沟槽抬起，形成相连的层叠山脊，整张艺术唱片的深浅刻线承载信息。",
+      "description_en": "Grooves lift into a connected mountain ridge; the art record's continuous engraving carries the information.",
+      "image": "images/record-mountains.png",
+      "image_sha256": "d580e82c6acba83afebe4ada0db4dd0afde0e3220e8ae17774d668a2d1135afd",
+      "size": [
+        1254,
+        1254
+      ],
+      "publication_date": "2026-10-17",
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
     }
   ],
   "last_updated": "2026-10-17"

@@ -4,10 +4,11 @@
 
 Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-These nine works were published at the project owner's request: the first eight on 2026-10-16, followed by “A sea still on the loom” on 2026-10-17. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+These ten works were published at the project owner's request: the first eight on 2026-10-16, followed by “A sea still on the loom” and “Mountains rise from a record” on 2026-10-17. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
 
 | Artwork | Phone scan status |
 | --- | --- |
+| [Mountains rise from a record](#record-mountains) | Pending phone review |
 | [A sea still on the loom](#loom-sea) | Pending phone review |
 | [A pencil's shadow becomes a whale](#pencil-whale) | Pending phone review |
 | [A city inside a zipper](#zipper-city) | Pending phone review |
@@ -17,6 +18,14 @@ These nine works were published at the project owner's request: the first eight 
 | [Shavings of night](#shaved-night) | Pending phone review |
 | [Stretched yellow film](#stretched-film) | Pending phone review |
 | [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
+
+<a id="record-mountains"></a>
+
+## Mountains rise from a record
+
+Grooves at the edge of an ivory art record lift into a connected mountain ridge. The disc's continuous engraving carries the information while a tonearm rests beside the foothills.
+
+<a href="images/record-mountains.png"><img src="images/record-mountains.png" width="640" alt="Engraved grooves lift into an ivory mountain ridge on a record player"></a>
 
 <a id="loom-sea"></a>
 
