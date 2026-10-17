@@ -863,6 +863,116 @@
           "passed": true
         }
       ]
+    },
+    {
+      "id": "loom-sea",
+      "title": "织到一半的海",
+      "description": "织机上未完成的蓝白棉布卷成一道海浪，经纬纹样承载信息，纸船停在布浪低处。",
+      "title_en": "A sea still on the loom",
+      "description_en": "Indigo and ecru cotton curls into a wave while still on the loom. The jacquard weave carries the information; a paper boat rests in its trough.",
+      "image": "images/loom-sea.png",
+      "image_sha256": "ac50c26d29de2945859f5866391c1681fbd921610480624e9b155c68691cff5d",
+      "size": [
+        1254,
+        1254
+      ],
+      "publication_date": "2026-10-17",
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
     }
-  ]
+  ],
+  "last_updated": "2026-10-17"
 }

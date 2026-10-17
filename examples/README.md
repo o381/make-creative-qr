@@ -4,10 +4,11 @@
 
 Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-These eight works were published on 2026-10-16 at the project owner's request. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+These nine works were published at the project owner's request: the first eight on 2026-10-16, followed by “A sea still on the loom” on 2026-10-17. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
 
 | Artwork | Phone scan status |
 | --- | --- |
+| [A sea still on the loom](#loom-sea) | Pending phone review |
 | [A pencil's shadow becomes a whale](#pencil-whale) | Pending phone review |
 | [A city inside a zipper](#zipper-city) | Pending phone review |
 | [A snail steals the sea from a stamp](#stamp-sea) | Pending phone review |
@@ -16,6 +17,14 @@ These eight works were published on 2026-10-16 at the project owner's request. E
 | [Shavings of night](#shaved-night) | Pending phone review |
 | [Stretched yellow film](#stretched-film) | Pending phone review |
 | [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
+
+<a id="loom-sea"></a>
+
+## A sea still on the loom
+
+Indigo and ecru cotton curls into a wave while still on the loom. The continuous jacquard weave carries the information; a paper boat rests in its trough.
+
+<a href="images/loom-sea.png"><img src="images/loom-sea.png" width="640" alt="A woven cotton cloth curls into an ocean wave beside a paper boat"></a>
 
 <a id="pencil-whale"></a>
 
