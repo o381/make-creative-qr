@@ -53,6 +53,8 @@ For every failure, record its specific location and relationship. Boundary, even
 
 After tonal corrections, check whether the surface appears to have changed shape: a smooth brightness field can turn sharp facets into soft dents or produce three padded targets while leaving the original pixels sharp. When transferring fine texture across changed pigmentation, distinguish material grain from old pigment edges: a high-frequency residual can carry the previous pattern back as ghosts. Preserve the observed surface boundaries and material behaviour in the correction or redraw. Pixel sharpness and a small pixel-change cost do not establish an unedited-looking material; inspect the altered structures in context, and repeat both appearance review and complete decoding.
 
+For color-based information, compare the complete composition before and after palette or luminance normalization. Flattened hierarchy, washed colors and a faint bounded code panel are visual failures even when decoding improves. Lower contrast alone does not integrate the information; inspect the thumbnail before extending contrast or density experiments.
+
 ## Feedback and example qualification
 
 Keep the following states separate in private task records, bound to the actual file and hash or host-guaranteed immutable asset version:
