@@ -18,6 +18,8 @@ Changing grayscale contours, breaking dark cores into fragments, adding particle
 
 Define the event, material formation and composition through the main workflow first. The current guide must already use the scale and position needed for that composition. Do not invent prompt justifications for an unsuitable fixed grid. Identify the information guide and visual reference using host-supported references; any style reference supplies aesthetics only. Do not assume fixed image numbering or order.
 
+Before submitting an edit, inspect the guide at the material boundaries as well as at information centers. If an old pigment or fluid pattern remains visible underneath a conflicting tonal correction, resolve the two arrangements in the input first; asking for realistic texture can otherwise preserve the old pattern while discarding the new information. Use one coherent material arrangement or an isolated texture reference, then verify that the revised complete guide still decodes. A mask and a request to preserve positions are constraints to test on the returned image, not evidence of preservation.
+
 ```text
 Create [EVENT OR VISUAL RULE] in [STYLE AND PALETTE].
 Show how [MATERIAL] forms, gathers and disperses through [PROCESS].
