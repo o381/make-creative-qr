@@ -39,6 +39,8 @@ Preserve the user's comparison hierarchy. “The first is more natural than the 
 
 Inspect the complete image and an approximately 320-pixel-wide thumbnail before zooming into materials. Thumbnails assess appearance, never scanning. Check in order:
 
+Judge the thumbnail without its title or creation narrative. If rich material detail distracts from the layout, also inspect a simplified three-tone thumbnail for density boundaries and three unusually prominent features. This auxiliary view diagnoses composition only; it cannot approve decoding or replace review of the actual artwork. A polished surface must not carry a previously rejected distribution through this check.
+
 1. **Independent composition:** without mentioning scanning, can a viewer understand the event, material origin and distribution? Does an abstract image have its own rule?
 2. **No dedicated code surface:** does the whole still look like a dense rectangle, even with extended lines or ragged edges? Is the exterior merely decorative? Do not crop away the scene to evade this check.
 3. **No special treatment for three corners:** compare upper-left, upper-right and lower-left regions with the whole for size, sharpness, grayscale, gaps and surrounding particles. Unique clusters, satellite dots, blurred shadows, icons, rings and cleared areas require revision, even if they are not square.
