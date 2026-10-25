@@ -4,10 +4,12 @@
 
 Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-These eleven works were published at the project owner's request: eight on 2026-10-16, two on 2026-10-17, and “A saucepan dreams of rain” on 2026-10-18. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+These thirteen works were published at the project owner's request; “A jaguar dreams its spots into a butterfly” and “A jellyfish slips out of a glass” were added on 2026-10-25. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
 
 | Artwork | Phone scan status |
 | --- | --- |
+| [A jaguar dreams its spots into a butterfly](#jaguar-butterfly) | Pending phone review |
+| [A jellyfish slips out of a glass](#caustic-jelly) | Pending phone review |
 | [A saucepan dreams of rain](#popcorn-weather) | Pending phone review |
 | [Mountains rise from a record](#record-mountains) | Pending phone review |
 | [A sea still on the loom](#loom-sea) | Pending phone review |
@@ -19,6 +21,22 @@ These eleven works were published at the project owner's request: eight on 2026-
 | [Shavings of night](#shaved-night) | Pending phone review |
 | [Stretched yellow film](#stretched-film) | Pending phone review |
 | [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
+
+<a id="jaguar-butterfly"></a>
+
+## A jaguar dreams its spots into a butterfly
+
+A butterfly unfolds its spotted wings before a sleeping jaguar. Continuous wing pigmentation and biological eyespots carry the information.
+
+<a href="images/jaguar-butterfly.png"><img src="images/jaguar-butterfly.png" width="640" alt="A spotted butterfly with four spread wings in front of a sleeping jaguar"></a>
+
+<a id="caustic-jelly"></a>
+
+## A jellyfish slips out of a glass
+
+Light refracted through a water glass becomes a jellyfish on the tabletop. Connected caustic bands and their gaps carry the information.
+
+<a href="images/caustic-jelly.png"><img src="images/caustic-jelly.png" width="640" alt="Refracted light beside a water glass forms a jellyfish on the tabletop"></a>
 
 <a id="popcorn-weather"></a>
 

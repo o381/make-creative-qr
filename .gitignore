@@ -35,3 +35,6 @@ python-deps/
 node_modules/
 __pycache__/
 *.pyc
+
+!/examples/images/jaguar-butterfly.png
+!/examples/images/caustic-jelly.png

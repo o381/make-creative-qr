@@ -24,6 +24,8 @@ Tools can change; these conditions remain. Missing capabilities or evidence leav
 
 Inspect the actual tool inventory, invocation rules and output fields. Choose available implementations for the following capabilities. Do not copy another platform's tool names, commands, paths, image numbers or parameters, or invent an interface.
 
+Confirm decoder operation on a known readable control when starting or changing the environment. A missing engine, import failure or invocation error is a capability failure, not evidence that the artwork is unreadable; restore or replace that capability before diagnosing the image.
+
 | Capability | Required result |
 | --- | --- |
 | Image access and viewing | Read the actual source, finished image and specific asset version |
@@ -58,6 +60,8 @@ Keep source codes, payloads, complete matrices, artworks and decoding records in
 Normal conversions retain the user's original content. Public project showcases use the confirmed, accessible GitHub repository homepage URL, followed by fresh encoding, creation, verification and finally publication. Do not generate public examples before the address is fixed. Historical private experiments stay out of public examples. Generic locator assets may contain only payload-independent functional geometry.
 
 ## 3. Design the formation process before placing information
+
+Read the latest task feedback and applicable Skill revisions before choosing the next composition. Carry unresolved defects forward as specific checks, not as a reason to repeat the same layout in another material.
 
 Fix three things in three sentences:
 
@@ -113,10 +117,12 @@ Do not rely on ever-higher versions or error correction, or quietly restore thre
 
 ## 6. Deliver and record transferable lessons
 
-Before delivery, confirm that the current file is the tested version, original content matches, every required test passes, appearance is acceptable and phone status is explicit. Repair and recheck any missing or conflicting evidence. Deliver the actual work through the host's file, image or asset mechanism; no fixed API or path is required.
+Before delivery, confirm that the current file is the tested version, original content matches, every required test passes, appearance is acceptable and phone status is explicit. Repair and recheck any missing or conflicting evidence. For a request to finish natural artwork, resolve known visual failures before requesting a phone retest; labeling an unattractive repair “diagnostic” does not bypass appearance review. Share such diagnostics when the user asks to inspect the investigation. Deliver the actual work through the host's file, image or asset mechanism; no fixed API or path is required.
 
 Briefly explain the formation process, content match, verification tools and conditions, and phone status. Without phone evidence, call it a candidate pending phone review. Without software decoding, do not call it a scannable finished work.
 
 Bind user feedback to specific files and versions. Record preferences, appearance, software qualification and phone evidence separately. Reverify uploaded copies. Approval of a source image does not automatically apply to a revision. “More natural, but still forced” must not become “fully accepted.”
 
-When updating the Skill, retain transferable composition methods, failure criteria, capability mappings and revision paths only. Keep lessons from counterexamples; exclude private experimental codes, images and reports. Do not turn an unverified method into a proven recipe.
+Close the learning loop within each creation round: bind observed defects and user feedback to the actual version, diagnose the cause, and update the relevant Skill guidance before the next attempt when a transferable lesson emerges. Maintain equivalent language editions together. If an existing rule already covers the failure, fix where and how it is applied rather than adding a synonymous prohibition. Record the changed decision and an evidence-based next check in the task; do not stop at a promise to improve. Use the [feedback loop](references/creative-review.md#turn-feedback-into-the-next-decision) for diagnosis and revision criteria.
+
+Retain transferable composition methods, failure criteria, capability mappings and revision paths only. Keep lessons from counterexamples; exclude private experimental codes, images and reports. Keep individual preferences in task context unless they generalize. Do not turn an unverified method or a successful calibration coefficient into a proven recipe.

@@ -27,3 +27,7 @@ Before release, check:
 ## 2026-10-16 public showcase
 
 The project owner requested immediate publication of all eight selected project-URL artworks, using each selected version (the zipper image uses the sharper revision). Every uploaded file was freshly checked against all seven software tests. The gallery and verification.json preserve separate phone status: the user confirmed that the cream-filled egg opened the project page; the other seven remain pending phone review. This publication does not invent missing phone evidence. It supersedes the source-only stage's temporary hold on example uploads. Private history and withdrawn experiments remain local. No release tag was published.
+
+## 2026-10-25 gallery update
+
+At the owner's request, two approved collected works were added: “A jaguar dreams its spots into a butterfly” and “A jellyfish slips out of a glass”, bringing the gallery to thirteen. Both actual repository copies freshly passed all seven software tests. Phone scans remain unconfirmed and are marked pending in the gallery and per-image records. The accompanying bilingual Skill revisions incorporate prior feedback; private experiments remain local.
