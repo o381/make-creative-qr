@@ -20,6 +20,8 @@ Define the event, material formation and composition through the main workflow f
 
 Before submitting an edit, inspect the guide at the material boundaries as well as at information centers. If an old pigment or fluid pattern remains visible underneath a conflicting tonal correction, resolve the two arrangements in the input first; asking for realistic texture can otherwise preserve the old pattern while discarding the new information. Use one coherent material arrangement or an isolated texture reference, then verify that the revised complete guide still decodes. A mask and a request to preserve positions are constraints to test on the returned image, not evidence of preservation.
 
+For continuous materials, review the guide's contour geometry and tone transitions before a material-only pass. Repeated right-angle turns, constant-width channels or two flat tones can survive faithful rendering as a visible code texture. Correct those structural features in the guide and recheck the complete file first; microscopic texture cannot resolve a request to preserve an unsuitable footprint while also making it disappear.
+
 ```text
 Create [EVENT OR VISUAL RULE] in [STYLE AND PALETTE].
 Show how [MATERIAL] forms, gathers and disperses through [PROCESS].
