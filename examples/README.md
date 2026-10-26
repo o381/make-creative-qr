@@ -4,10 +4,11 @@
 
 Every artwork encodes the [make-creative-qr GitHub homepage](https://github.com/o381/make-creative-qr). Click an image to open the complete original file.
 
-These thirteen works were published at the project owner's request; “A jaguar dreams its spots into a butterfly” and “A jellyfish slips out of a glass” were added on 2026-10-25. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
+These fourteen works were published at the project owner's request; “Rain writes a letter to a paper boat” was added on 2026-10-26. Each actual uploaded file and its PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels passed software decoding checks. Phone scan evidence is listed separately below.
 
 | Artwork | Phone scan status |
 | --- | --- |
+| [Rain writes a letter to a paper boat](#rain-letter) | Pending phone review |
 | [A jaguar dreams its spots into a butterfly](#jaguar-butterfly) | Pending phone review |
 | [A jellyfish slips out of a glass](#caustic-jelly) | Pending phone review |
 | [A saucepan dreams of rain](#popcorn-weather) | Pending phone review |
@@ -21,6 +22,14 @@ These thirteen works were published at the project owner's request; “A jaguar 
 | [Shavings of night](#shaved-night) | Pending phone review |
 | [Stretched yellow film](#stretched-film) | Pending phone review |
 | [A cream-filled egg cracks open](#cream-egg) | User confirmed that the project page opened |
+
+<a id="rain-letter"></a>
+
+## Rain writes a letter to a paper boat
+
+Rain rings spread toward an ochre paper boat across indigo water, as if writing it a letter. Continuous carved marks and unprinted spaces carry the information throughout the illustrated water.
+
+<a href="images/rain-letter.png"><img src="images/rain-letter.png" width="640" alt="An ochre paper boat floats through expanding rain rings on indigo water in a carved print illustration"></a>
 
 <a id="jaguar-butterfly"></a>
 

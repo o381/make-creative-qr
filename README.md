@@ -14,11 +14,11 @@ A zipper opens onto a glowing city. A pencil casts a whale's shadow. The sea spi
 
 <a href="examples/README.md"><img src="examples/images/zipper-city.png" width="640" alt="A city inside a zipper: rooftops and alleys carry the project QR content"></a>
 
-[Explore all 13 examples →](examples/README.md) · [Files and verification records](examples/verification.json)
+[Explore all 14 examples →](examples/README.md) · [Files and verification records](examples/verification.json)
 
 Each published file and its six sharing variants passed software decoding checks and points to this repository. Phone scan evidence is listed separately for each artwork; untested images remain pending phone review.
 
-[New: A jaguar dreams its spots into a butterfly →](examples/README.md#jaguar-butterfly) · [A jellyfish slips out of a glass →](examples/README.md#caustic-jelly)
+[New: Rain writes a letter to a paper boat →](examples/README.md#rain-letter)
 
 ## Design principles
 

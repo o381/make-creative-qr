@@ -17,6 +17,121 @@
   "artwork_license": "Not separately specified; the repository MIT license covers code and documentation.",
   "examples": [
     {
+      "id": "rain-letter",
+      "title": "雨替小船写回信",
+      "description": "靛蓝水面上，雨圈向赭黄色纸船展开，仿佛替它写下一封回信。连续的版画刻线与留白共同承载信息。",
+      "image": "images/rain-letter.png",
+      "image_sha256": "ff6e324a65a23be2796a1720310ec52168d21910413e863e1a9c3fd909454672",
+      "size": [
+        1254,
+        1254
+      ],
+      "phone_scan_status": "unverified",
+      "software_verified": true,
+      "publication_date": "2026-10-26",
+      "checks": [
+        {
+          "variant": "original",
+          "width": 1254,
+          "height": 1254,
+          "matching_engines": [
+            "WeChatCV",
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px PNG",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "480px JPEG q85",
+          "width": 480,
+          "height": 480,
+          "matching_engines": [
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px PNG",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV",
+            "WeChatCV-official-DNN",
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "640px JPEG q85",
+          "width": 640,
+          "height": 640,
+          "matching_engines": [
+            "WeChatCV",
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px PNG",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV",
+            "WeChatCV-official-DNN",
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        },
+        {
+          "variant": "800px JPEG q85",
+          "width": 800,
+          "height": 800,
+          "matching_engines": [
+            "WeChatCV",
+            "WeChatCV-official-DNN",
+            "ZXing-C++"
+          ],
+          "decoded_payload_sha256": [
+            "044d4e91c768d187e9d1d6b19bc63a92759d4640a6dd1093f32fba7895471d34"
+          ],
+          "conflicting_payload_sha256": [],
+          "passed": true
+        }
+      ]
+    },
+    {
       "id": "pencil-whale",
       "title": "铅笔的影子游成了鲸",
       "description": "铅笔投下会游动的鲸影，石墨刻线与纸面留白承载信息。",
@@ -1413,5 +1528,5 @@
       ]
     }
   ],
-  "last_updated": "2026-10-25"
+  "last_updated": "2026-10-26"
 }

@@ -2,8 +2,8 @@
   "repository_url": "https://github.com/o381/make-creative-qr",
   "status": "showcase-published-with-per-image-phone-status",
   "purpose": "Public showcase QR payload only. Normal user jobs preserve original bytes.",
-  "showcase_count": 13,
+  "showcase_count": 14,
   "showcase_path": "examples/README.md",
   "verification_path": "examples/verification.json",
-  "last_updated": "2026-10-25"
+  "last_updated": "2026-10-26"
 }

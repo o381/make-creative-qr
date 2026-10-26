@@ -4,10 +4,11 @@
 
 每张图都扫描到 [make-creative-qr 的 GitHub 主页](https://github.com/o381/make-creative-qr)。点击图片查看完整原文件。
 
-这 13 张作品按项目所有者要求公开；2026-10-25 新增《豹斑化蝶》与《杯底漏出一只水母》。所有实际上传文件及宽 480、640、800 像素的 PNG、JPEG 85 版本均通过软件验码；手机实扫状态单独列于下表。
+这 14 张作品按项目所有者要求公开；2026-10-26 新增《雨替小船写回信》。所有实际上传文件及宽 480、640、800 像素的 PNG、JPEG 85 版本均通过软件验码；手机实扫状态单独列于下表。
 
 | 作品 | 手机实扫状态 |
 | --- | --- |
+| [雨替小船写回信](#rain-letter) | 待复核 |
 | [豹斑化蝶](#jaguar-butterfly) | 待复核 |
 | [杯底漏出一只水母](#caustic-jelly) | 待复核 |
 | [锅里正在酝酿一场雨](#popcorn-weather) | 待复核 |
@@ -21,6 +22,14 @@
 | [削下的夜色](#shaved-night) | 待复核 |
 | [黄膜拉伸](#stretched-film) | 待复核 |
 | [破壳奶油彩蛋](#cream-egg) | 用户已确认打开项目页面 |
+
+<a id="rain-letter"></a>
+
+## 雨替小船写回信
+
+靛蓝水面上，雨圈向赭黄色纸船展开，仿佛替它写下一封回信。连续的版画刻线与留白共同承载信息。
+
+<a href="images/rain-letter.png"><img src="images/rain-letter.png" width="640" alt="雨替小船写回信"></a>
 
 <a id="jaguar-butterfly"></a>
 
