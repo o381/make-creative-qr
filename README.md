@@ -14,43 +14,43 @@ Refracted light becomes a jellyfish. Jaguar spots take flight as a butterfly. A 
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#caustic-jelly"><img src="docs/assets/showcase/caustic-jelly.webp" width="420" alt="A jellyfish slips out of a glass"></a><br>
-      <a href="examples/README.md#caustic-jelly"><strong>A jellyfish slips out of a glass</strong></a>
+      <a href="examples/README.md#caustic-jelly"><strong>Jellyfish of light</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#jaguar-butterfly"><img src="docs/assets/showcase/jaguar-butterfly.jpg" width="420" alt="A jaguar dreams its spots into a butterfly"></a><br>
-      <a href="examples/README.md#jaguar-butterfly"><strong>A jaguar dreams its spots into a butterfly</strong></a>
+      <a href="examples/README.md#jaguar-butterfly"><strong>Jaguar butterfly</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#zipper-city"><img src="docs/assets/showcase/zipper-city.webp" width="420" alt="A city inside a zipper"></a><br>
-      <a href="examples/README.md#zipper-city"><strong>A city inside a zipper</strong></a>
+      <a href="examples/README.md#zipper-city"><strong>Zipper city</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#stamp-sea"><img src="docs/assets/showcase/stamp-sea.jpg" width="420" alt="A snail steals the sea from a stamp"></a><br>
-      <a href="examples/README.md#stamp-sea"><strong>A snail steals the sea from a stamp</strong></a>
+      <a href="examples/README.md#stamp-sea"><strong>A sea in a stamp</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#shaved-night"><img src="docs/assets/showcase/shaved-night.jpg" width="420" alt="Shavings of night"></a><br>
       <a href="examples/README.md#shaved-night"><strong>Shavings of night</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#pencil-whale"><img src="docs/assets/showcase/pencil-whale.jpg" width="420" alt="A pencil's shadow becomes a whale"></a><br>
-      <a href="examples/README.md#pencil-whale"><strong>A pencil's shadow becomes a whale</strong></a>
+      <a href="examples/README.md#pencil-whale"><strong>A whale's shadow</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#rain-letter"><img src="docs/assets/showcase/rain-letter.jpg" width="420" alt="Rain writes a letter to a paper boat"></a><br>
-      <a href="examples/README.md#rain-letter"><strong>Rain writes a letter to a paper boat</strong></a>
+      <a href="examples/README.md#rain-letter"><strong>Rain writes back</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.md#flying-score"><img src="docs/assets/showcase/flying-score.webp" width="420" alt="After the score takes flight"></a><br>
-      <a href="examples/README.md#flying-score"><strong>After the score takes flight</strong></a>
+      <a href="examples/README.md#flying-score"><strong>The score takes flight</strong></a>
     </td>
   </tr>
 </table>

@@ -14,41 +14,41 @@ Make Creative QR 围绕真实二维码载荷，协同组织材料构成、信息
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#caustic-jelly"><img src="docs/assets/showcase/caustic-jelly.webp" width="420" alt="杯底漏出一只水母"></a><br>
       <a href="examples/README.zh-CN.md#caustic-jelly"><strong>杯底漏出一只水母</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#jaguar-butterfly"><img src="docs/assets/showcase/jaguar-butterfly.jpg" width="420" alt="豹斑化蝶"></a><br>
       <a href="examples/README.zh-CN.md#jaguar-butterfly"><strong>豹斑化蝶</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#zipper-city"><img src="docs/assets/showcase/zipper-city.webp" width="420" alt="拉链里藏着一座城"></a><br>
       <a href="examples/README.zh-CN.md#zipper-city"><strong>拉链里藏着一座城</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#stamp-sea"><img src="docs/assets/showcase/stamp-sea.jpg" width="420" alt="蜗牛偷走邮票里的海"></a><br>
       <a href="examples/README.zh-CN.md#stamp-sea"><strong>蜗牛偷走邮票里的海</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#shaved-night"><img src="docs/assets/showcase/shaved-night.jpg" width="420" alt="削下的夜色"></a><br>
       <a href="examples/README.zh-CN.md#shaved-night"><strong>削下的夜色</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#pencil-whale"><img src="docs/assets/showcase/pencil-whale.jpg" width="420" alt="铅笔的影子游成了鲸"></a><br>
       <a href="examples/README.zh-CN.md#pencil-whale"><strong>铅笔的影子游成了鲸</strong></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#rain-letter"><img src="docs/assets/showcase/rain-letter.jpg" width="420" alt="雨替小船写回信"></a><br>
       <a href="examples/README.zh-CN.md#rain-letter"><strong>雨替小船写回信</strong></a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="examples/README.zh-CN.md#flying-score"><img src="docs/assets/showcase/flying-score.webp" width="420" alt="乐谱飞走之后"></a><br>
       <a href="examples/README.zh-CN.md#flying-score"><strong>乐谱飞走之后</strong></a>
     </td>
