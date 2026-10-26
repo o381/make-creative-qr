@@ -1,4 +1,4 @@
 interface:
   display_name: "Make Creative QR"
   short_description: "Create naturally integrated QR art and verify exact content"
-  default_prompt: "Use $make-creative-qr to confirm my style and intended use, create naturally integrated QR artwork with available tools, and verify that the complete image preserves the original content."
+  default_prompt: "Use $make-creative-qr to turn my QR image or exact content into naturally integrated artwork, use my preferences or choose a suitable direction, and carry creation, revision and complete-image verification through to delivery."

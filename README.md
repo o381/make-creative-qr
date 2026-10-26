@@ -93,12 +93,14 @@
 
 <h3 align="center"><a name="make-your-own"></a>Make your own</h3>
 
-Import the [Skill directory](skills/make-creative-qr/) into an agent that supports directory-based Skills, or provide the [Skill instructions](skills/make-creative-qr/SKILL.md). Upload a real QR image, then ask:
+Import the [Skill directory](skills/make-creative-qr/) into an agent that supports directory-based Skills, or ask it to read the [Skill instructions](skills/make-creative-qr/SKILL.md). Once active, upload a QR image, or supply the exact URL or text to encode. The agent reuses your preferences or chooses a direction, then creates, revises and verifies the complete artwork without a repeated workflow prompt.
+
+Short follow-ups guide the next step:
 
 ```text
-Use make-creative-qr to create an artwork with a naturally integrated QR code.
-First confirm my style, elements and intended use. Preserve the original
-scanned content. Check the complete artwork and sharing sizes.
+Try another idea.
+Keep the concept; fix the scanning.
+Use this image as a style reference.
 ```
 
 Documentation defaults to English, with a complete [Chinese edition](skills/make-creative-qr/SKILL.zh-CN.md). Creation and delivery follow the user's language.
@@ -112,7 +114,7 @@ The Skill defines capabilities and acceptance criteria; the agent uses tools ava
 
 The default software profile has seven checks: the actual complete file, plus PNG and quality-85 JPEG variants at widths of 480, 640 and 800 pixels. Each must recover the original content without conflicts. Crops, supplied corner coordinates and pure-code mode cannot replace complete-image verification. Bind evidence to a content digest or file hash and recheck after editing or export. Software success cannot establish a phone app scan.
 
-Confirm style, elements and use before creation; build information guidance and revise using visual and decoding feedback. Photography, illustration, anime, geometry and collage can all carry information. Non-ASCII or binary content needs reliable original-byte evidence; do not generate replacement encoding when the input cannot be confirmed.
+Reuse established style, elements and use, or choose defaults when absent; build information guidance and revise using visual and decoding feedback. Photography, illustration, anime, geometry and collage can all carry information. Non-ASCII or binary source codes need reliable original-byte evidence; do not generate replacement encoding when the input cannot be confirmed.
 
 Private source codes, payload data, artworks and recognition records stay out of public examples, reusable assets and test fixtures. Decoding runs in the host environment; generation and storage depend on the chosen services. This project does not promise an entirely offline workflow.
 

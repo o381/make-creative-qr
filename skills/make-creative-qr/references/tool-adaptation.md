@@ -46,4 +46,6 @@ Other routes must still recover the original content, decode complete images, te
 
 When only SKILL.md is supplied, follow its complete capability requirements, workflow and acceptance criteria. Missing references should not reduce every step to installing commands. The full directory adds creative diagnostics and optional implementations.
 
+For a one-time repository-link request, open the actual Skill instructions and use them in the current task; do not claim installation from reading a homepage. For persistent use in a host with directory-based Skill import, import the complete `skills/make-creative-qr/` directory using that host's supported mechanism. If the link is inaccessible, request the missing instructions or a local copy once. Once the Skill is active, handle QR uploads and follow-ups through its automatic entry rules without requiring the user to paste the workflow again.
+
 Product-specific files such as agents/openai.yaml are only for hosts that recognize them. Other hosts use their own Skill import or context mechanism; metadata invocation syntax is not a universal requirement.

@@ -74,7 +74,7 @@ python3 "$SKILL_DIR/scripts/check_delivery.py" \
 
 Check each tool's return code before its dependent step. After a nonzero result, do not upload, overwrite a saved version or display it as finished. Integrity review cannot approve damaged files or borrow a report for a different path; a new delivery path needs fresh `qualify`. If a saved local file can still change, recheck before display.
 
-Do not generate before style is established, and never reuse one user's QR for another user.
+Resolve the creative direction from established preferences or the Skill's defaults before generation, and lock the current user's content. Never reuse one user's QR for another user.
 
 ## Reference command sequence
 
