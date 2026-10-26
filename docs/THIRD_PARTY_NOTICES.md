@@ -13,6 +13,4 @@ The optional code implementation uses the dependencies below. Licenses were chec
 | Pillow 12.3.0 | https://github.com/python-pillow/Pillow | MIT-CMU; bundled binary components retain their notices |
 | sharp 0.34.5 | https://github.com/lovell/sharp | Apache-2.0; prebuilt libvips and other components retain their licenses |
 
-The English and Chinese SVG panels in `docs/assets` are typographic project illustrations, not QR codes or experimental artworks. Outlined glyphs use Noto Serif, Noto Serif SC, Noto Sans and Noto Sans SC under SIL Open Font License 1.1; the [font license](licenses/Noto-OFL.txt) is included. Font files are not distributed.
-
 `particle-locators.json` contains payload-independent, seven-unit geometry for three functional regions, assembled for this workflow as technical guidance. It contains no complete data matrix. Unreviewed private icons are not distributed. Historical reference images, private artworks and private encoding data are outside this repository.

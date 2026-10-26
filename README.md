@@ -1,6 +1,6 @@
 **English** | [简体中文](README.zh-CN.md)
 
-![Make Creative QR — information woven into a scene](docs/assets/project-header.svg)
+# Make Creative QR
 
 **A workflow for turning real QR content into part of an artwork.**
 
@@ -12,48 +12,45 @@ Materials have an origin, density follows an idea, and the scene makes sense on 
 
 Refracted light becomes a jellyfish. Jaguar spots take flight as a butterfly. A zipper opens onto a glowing city. Eight selected works across different styles; click any image for its story and complete original.
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#caustic-jelly"><img src="docs/assets/showcase/caustic-jelly.webp" width="420" alt="A jellyfish slips out of a glass"></a><br>
-      <a href="examples/README.md#caustic-jelly"><strong>Jellyfish of light</strong></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#jaguar-butterfly"><img src="docs/assets/showcase/jaguar-butterfly.jpg" width="420" alt="A jaguar dreams its spots into a butterfly"></a><br>
-      <a href="examples/README.md#jaguar-butterfly"><strong>Jaguar butterfly</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#zipper-city"><img src="docs/assets/showcase/zipper-city.webp" width="420" alt="A city inside a zipper"></a><br>
-      <a href="examples/README.md#zipper-city"><strong>Zipper city</strong></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#stamp-sea"><img src="docs/assets/showcase/stamp-sea.jpg" width="420" alt="A snail steals the sea from a stamp"></a><br>
-      <a href="examples/README.md#stamp-sea"><strong>A sea in a stamp</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#shaved-night"><img src="docs/assets/showcase/shaved-night.jpg" width="420" alt="Shavings of night"></a><br>
-      <a href="examples/README.md#shaved-night"><strong>Shavings of night</strong></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#pencil-whale"><img src="docs/assets/showcase/pencil-whale.jpg" width="420" alt="A pencil's shadow becomes a whale"></a><br>
-      <a href="examples/README.md#pencil-whale"><strong>A whale's shadow</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#rain-letter"><img src="docs/assets/showcase/rain-letter.jpg" width="420" alt="Rain writes a letter to a paper boat"></a><br>
-      <a href="examples/README.md#rain-letter"><strong>Rain writes back</strong></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="examples/README.md#flying-score"><img src="docs/assets/showcase/flying-score.webp" width="420" alt="After the score takes flight"></a><br>
-      <a href="examples/README.md#flying-score"><strong>The score takes flight</strong></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="examples/README.md#caustic-jelly"><img src="docs/assets/showcase/caustic-jelly.webp" width="800" alt="A jellyfish slips out of a glass"></a><br>
+  <a href="examples/README.md#caustic-jelly"><strong>Jellyfish of light</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#jaguar-butterfly"><img src="docs/assets/showcase/jaguar-butterfly.jpg" width="800" alt="A jaguar dreams its spots into a butterfly"></a><br>
+  <a href="examples/README.md#jaguar-butterfly"><strong>Jaguar butterfly</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#zipper-city"><img src="docs/assets/showcase/zipper-city.webp" width="800" alt="A city inside a zipper"></a><br>
+  <a href="examples/README.md#zipper-city"><strong>Zipper city</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#stamp-sea"><img src="docs/assets/showcase/stamp-sea.jpg" width="800" alt="A snail steals the sea from a stamp"></a><br>
+  <a href="examples/README.md#stamp-sea"><strong>A sea in a stamp</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#shaved-night"><img src="docs/assets/showcase/shaved-night.jpg" width="800" alt="Shavings of night"></a><br>
+  <a href="examples/README.md#shaved-night"><strong>Shavings of night</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#pencil-whale"><img src="docs/assets/showcase/pencil-whale.jpg" width="800" alt="A pencil's shadow becomes a whale"></a><br>
+  <a href="examples/README.md#pencil-whale"><strong>A whale's shadow</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#rain-letter"><img src="docs/assets/showcase/rain-letter.jpg" width="800" alt="Rain writes a letter to a paper boat"></a><br>
+  <a href="examples/README.md#rain-letter"><strong>Rain writes back</strong></a>
+</p>
+
+<p align="center">
+  <a href="examples/README.md#flying-score"><img src="docs/assets/showcase/flying-score.webp" width="800" alt="After the score takes flight"></a><br>
+  <a href="examples/README.md#flying-score"><strong>The score takes flight</strong></a>
+</p>
 
 [Explore all 14 examples →](examples/README.md) · [Files and verification records](examples/verification.json)
 
@@ -63,7 +60,7 @@ Each published file and its six sharing variants passed software decoding checks
 
 ## Design principles
 
-![Composition, integration and verification: establish the scene, integrate locator features into its visual language, and check payload and scanning separately.](docs/assets/project-principles.svg)
+**Establish the scene → integrate the structure → verify content and scanning**
 
 A natural result depends on continuous material relationships inside and outside the encoded area. Preserve the functional signal while integrating visible locator squares, three distinctive corner symbols and abrupt boundaries. New works should change the formation process and distribution so each has its own visual logic.
 
