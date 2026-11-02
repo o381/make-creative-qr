@@ -17,14 +17,20 @@
 
 # 仅放行已核对的公开项目案例图
 /examples/images/*
-!/examples/images/pencil-whale.png
-!/examples/images/zipper-city.png
-!/examples/images/stamp-sea.png
-!/examples/images/wool-lambs.png
-!/examples/images/flying-score.png
-!/examples/images/shaved-night.png
-!/examples/images/stretched-film.png
+!/examples/images/caustic-jelly.png
 !/examples/images/cream-egg.png
+!/examples/images/flying-score.png
+!/examples/images/jaguar-butterfly.png
+!/examples/images/loom-sea.png
+!/examples/images/pencil-whale.png
+!/examples/images/popcorn-weather.png
+!/examples/images/rain-letter.png
+!/examples/images/record-mountains.png
+!/examples/images/shaved-night.png
+!/examples/images/stamp-sea.png
+!/examples/images/stretched-film.png
+!/examples/images/wool-lambs.png
+!/examples/images/zipper-city.png
 
 # 本地环境与凭据
 .env
@@ -35,7 +41,3 @@ python-deps/
 node_modules/
 __pycache__/
 *.pyc
-
-!/examples/images/jaguar-butterfly.png
-!/examples/images/caustic-jelly.png
-!/examples/images/rain-letter.png
